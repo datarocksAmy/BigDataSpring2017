@@ -1,0 +1,2376 @@
+"C:\Program Files\Java\jdk1.8.0_121\bin\java" -Didea.launcher.port=7535 "-Didea.launcher.bin.path=C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3.3\bin" -Dfile.encoding=UTF-8 -classpath "C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext\zipfs.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Users\Amy Lin\Desktop\CS Spring 2017\CS 5542 Big Data Analytics _ Application\Lab\Tutorial 3-Linear Regression, Clustering\Clarifai\target\classes;C:\Users\Amy Lin\.m2\repository\com\clarifai\clarifai-api2\core\2.1.0\core-2.1.0.jar;C:\Users\Amy Lin\.m2\repository\com\google\code\gson\gson\2.7\gson-2.7.jar;C:\Users\Amy Lin\.m2\repository\com\squareup\okhttp3\okhttp\3.4.1\okhttp-3.4.1.jar;C:\Users\Amy Lin\.m2\repository\com\squareup\okio\okio\1.9.0\okio-1.9.0.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\core\1.3.5\core-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\core-citation\1.3.5\core-citation-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\core-aop-support\1.3.5\core-aop-support-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;C:\Users\Amy Lin\.m2\repository\org\jbibtex\jbibtex\1.0.2\jbibtex-1.0.2.jar;C:\Users\Amy Lin\.m2\repository\org\jsoup\jsoup\1.6.3\jsoup-1.6.3.jar;C:\Users\Amy Lin\.m2\repository\net\sf\trove4j\trove4j\3.0.2\trove4j-3.0.2.jar;C:\Users\Amy Lin\.m2\repository\com\google\guava\guava\14.0.1\guava-14.0.1.jar;C:\Users\Amy Lin\.m2\repository\colt\colt\1.2.0\colt-1.2.0.jar;C:\Users\Amy Lin\.m2\repository\concurrent\concurrent\1.3.4\concurrent-1.3.4.jar;C:\Users\Amy Lin\.m2\repository\log4j\log4j\1.2.14\log4j-1.2.14.jar;C:\Users\Amy Lin\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\Amy Lin\.m2\repository\commons-io\commons-io\2.2\commons-io-2.2.jar;C:\Users\Amy Lin\.m2\repository\org\apache\commons\commons-vfs2\2.0\commons-vfs2-2.0.jar;C:\Users\Amy Lin\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\Amy Lin\.m2\repository\org\apache\maven\scm\maven-scm-api\1.4\maven-scm-api-1.4.jar;C:\Users\Amy Lin\.m2\repository\org\codehaus\plexus\plexus-utils\1.5.6\plexus-utils-1.5.6.jar;C:\Users\Amy Lin\.m2\repository\org\apache\maven\scm\maven-scm-provider-svnexe\1.4\maven-scm-provider-svnexe-1.4.jar;C:\Users\Amy Lin\.m2\repository\org\apache\maven\scm\maven-scm-provider-svn-commons\1.4\maven-scm-provider-svn-commons-1.4.jar;C:\Users\Amy Lin\.m2\repository\regexp\regexp\1.3\regexp-1.3.jar;C:\Users\Amy Lin\.m2\repository\commons-httpclient\commons-httpclient\3.1\commons-httpclient-3.1.jar;C:\Users\Amy Lin\.m2\repository\commons-codec\commons-codec\1.2\commons-codec-1.2.jar;C:\Users\Amy Lin\.m2\repository\com\esotericsoftware\kryo\kryo\2.21\kryo-2.21.jar;C:\Users\Amy Lin\.m2\repository\com\esotericsoftware\reflectasm\reflectasm\1.07\reflectasm-1.07-shaded.jar;C:\Users\Amy Lin\.m2\repository\org\ow2\asm\asm\4.0\asm-4.0.jar;C:\Users\Amy Lin\.m2\repository\com\esotericsoftware\minlog\minlog\1.2\minlog-1.2.jar;C:\Users\Amy Lin\.m2\repository\org\objenesis\objenesis\1.2\objenesis-1.2.jar;C:\Users\Amy Lin\.m2\repository\vigna\dsi\unimi\it\jal\20031117\jal-20031117.jar;C:\Users\Amy Lin\.m2\repository\org\apache\ant\ant\1.8.4\ant-1.8.4.jar;C:\Users\Amy Lin\.m2\repository\org\apache\ant\ant-launcher\1.8.4\ant-launcher-1.8.4.jar;C:\Users\Amy Lin\.m2\repository\org\apache\httpcomponents\httpclient\4.2.5\httpclient-4.2.5.jar;C:\Users\Amy Lin\.m2\repository\org\apache\httpcomponents\httpcore\4.2.4\httpcore-4.2.4.jar;C:\Users\Amy Lin\.m2\repository\uk\com\robust-it\cloning\1.9.1\cloning-1.9.1.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\image-feature-extraction\1.3.5\image-feature-extraction-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\image-processing\1.3.5\image-processing-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\core-experiment\1.3.5\core-experiment-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\IREval\1.3.5\IREval-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\apache\commons\commons-math\2.2\commons-math-2.2.jar;C:\Users\Amy Lin\.m2\repository\com\googlecode\jatl\jatl\0.2.1\jatl-0.2.1.jar;C:\Users\Amy Lin\.m2\repository\jfree\jfreechart\1.0.13\jfreechart-1.0.13.jar;C:\Users\Amy Lin\.m2\repository\jfree\jcommon\1.0.16\jcommon-1.0.16.jar;C:\Users\Amy Lin\.m2\repository\net\sf\jasperreports\jasperreports\4.6.0\jasperreports-4.6.0.jar;C:\Users\Amy Lin\.m2\repository\commons-beanutils\commons-beanutils\1.8.0\commons-beanutils-1.8.0.jar;C:\Users\Amy Lin\.m2\repository\commons-collections\commons-collections\2.1\commons-collections-2.1.jar;C:\Users\Amy Lin\.m2\repository\commons-digester\commons-digester\2.1\commons-digester-2.1.jar;C:\Users\Amy Lin\.m2\repository\com\lowagie\itext\2.1.7\itext-2.1.7.jar;C:\Users\Amy Lin\.m2\repository\bouncycastle\bcmail-jdk14\138\bcmail-jdk14-138.jar;C:\Users\Amy Lin\.m2\repository\bouncycastle\bcprov-jdk14\138\bcprov-jdk14-138.jar;C:\Users\Amy Lin\.m2\repository\org\bouncycastle\bctsp-jdk14\1.38\bctsp-jdk14-1.38.jar;C:\Users\Amy Lin\.m2\repository\org\bouncycastle\bcprov-jdk14\1.38\bcprov-jdk14-1.38.jar;C:\Users\Amy Lin\.m2\repository\org\bouncycastle\bcmail-jdk14\1.38\bcmail-jdk14-1.38.jar;C:\Users\Amy Lin\.m2\repository\eclipse\jdtcore\3.1.0\jdtcore-3.1.0.jar;C:\Users\Amy Lin\.m2\repository\org\codehaus\castor\castor\1.2\castor-1.2.jar;C:\Users\Amy Lin\.m2\repository\org\apache\poi\poi-ooxml\3.7\poi-ooxml-3.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\poi\poi\3.7\poi-3.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\poi\poi-ooxml-schemas\3.7\poi-ooxml-schemas-3.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlbeans\xmlbeans\2.3.0\xmlbeans-2.3.0.jar;C:\Users\Amy Lin\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Amy Lin\.m2\repository\org\apache\geronimo\specs\geronimo-stax-api_1.0_spec\1.0\geronimo-stax-api_1.0_spec-1.0.jar;C:\Users\Amy Lin\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Amy Lin\.m2\repository\org\codehaus\jackson\jackson-core-asl\1.9.4\jackson-core-asl-1.9.4.jar;C:\Users\Amy Lin\.m2\repository\org\codehaus\jackson\jackson-mapper-asl\1.9.4\jackson-mapper-asl-1.9.4.jar;C:\Users\Amy Lin\.m2\repository\org\bethecoder\ascii-table\1.0\ascii-table-1.0.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\JTransforms\1.3.5\JTransforms-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\clustering\1.3.5\clustering-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\nearest-neighbour\1.3.5\nearest-neighbour-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\core-feature\1.3.5\core-feature-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\machine-learning\1.3.5\machine-learning-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\joda-time\joda-time\2.1\joda-time-2.1.jar;C:\Users\Amy Lin\.m2\repository\de\bwaldvogel\liblinear-dense\1.92\liblinear-dense-1.92.jar;C:\Users\Amy Lin\.m2\repository\tw\edu\ntu\csie\libsvm\3.1\libsvm-3.1.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\core-image\1.3.5\core-image-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\net\billylieurance\azuresearch\azure-bing-search-java\0.12.0\azure-bing-search-java-0.12.0.jar;C:\Users\Amy Lin\.m2\repository\net\sourceforge\jeuclid\jeuclid-core\3.1.9\jeuclid-core-3.1.9.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\batik-svg-dom\1.7\batik-svg-dom-1.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\batik-anim\1.7\batik-anim-1.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\batik-awt-util\1.7\batik-awt-util-1.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\batik-css\1.7\batik-css-1.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\batik-dom\1.7\batik-dom-1.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\batik-xml\1.7\batik-xml-1.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\batik-ext\1.7\batik-ext-1.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\batik-parser\1.7\batik-parser-1.7.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\batik-util\1.7\batik-util-1.7.jar;C:\Users\Amy Lin\.m2\repository\xml-apis\xml-apis\1.3.04\xml-apis-1.3.04.jar;C:\Users\Amy Lin\.m2\repository\xml-apis\xml-apis-ext\1.3.04\xml-apis-ext-1.3.04.jar;C:\Users\Amy Lin\.m2\repository\org\apache\xmlgraphics\xmlgraphics-commons\1.3.1\xmlgraphics-commons-1.3.1.jar;C:\Users\Amy Lin\.m2\repository\uk\ac\ed\ph\snuggletex\snuggletex-core\1.2.2\snuggletex-core-1.2.2.jar;C:\Users\Amy Lin\.m2\repository\uk\ac\ed\ph\snuggletex\snuggletex-upconversion\1.2.2\snuggletex-upconversion-1.2.2.jar;C:\Users\Amy Lin\.m2\repository\net\sf\saxon\saxon9\9.1.0.8\saxon9-9.1.0.8.jar;C:\Users\Amy Lin\.m2\repository\net\sf\saxon\saxon9-dom\9.1.0.8\saxon9-dom-9.1.0.8.jar;C:\Users\Amy Lin\.m2\repository\uk\ac\ed\ph\snuggletex\snuggletex-jeuclid\1.2.2\snuggletex-jeuclid-1.2.2.jar;C:\Users\Amy Lin\.m2\repository\com\flickr4java\flickr4java\2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4\flickr4java-2.13_jonhare_0408059615bfa8da071c2e54268e3004ce62d6a4.jar;C:\Users\Amy Lin\.m2\repository\org\scribe\scribe\1.3.5\scribe-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\apache\axis\axis\1.4\axis-1.4.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\core-math\1.3.5\core-math-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\gov\nist\math\jama\1.0.3\jama-1.0.3.jar;C:\Users\Amy Lin\.m2\repository\org\la4j\la4j\0.4.0\la4j-0.4.0.jar;C:\Users\Amy Lin\.m2\repository\com\googlecode\matrix-toolkits-java\mtj\1.0.2\mtj-1.0.2.jar;C:\Users\Amy Lin\.m2\repository\net\sourceforge\f2j\arpack_combined_all\0.1\arpack_combined_all-0.1.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\core\1.1.2\core-1.1.2.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_ref-osx-x86_64\1.1\netlib-native_ref-osx-x86_64-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\native_ref-java\1.1\native_ref-java-1.1.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\jniloader\1.1\jniloader-1.1.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-x86_64\1.1\netlib-native_ref-linux-x86_64-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-i686\1.1\netlib-native_ref-linux-i686-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_ref-win-x86_64\1.1\netlib-native_ref-win-x86_64-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_ref-win-i686\1.1\netlib-native_ref-win-i686-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_ref-linux-armhf\1.1\netlib-native_ref-linux-armhf-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_system-osx-x86_64\1.1\netlib-native_system-osx-x86_64-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\native_system-java\1.1\native_system-java-1.1.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-x86_64\1.1\netlib-native_system-linux-x86_64-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-i686\1.1\netlib-native_system-linux-i686-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_system-linux-armhf\1.1\netlib-native_system-linux-armhf-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_system-win-x86_64\1.1\netlib-native_system-win-x86_64-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\com\github\fommil\netlib\netlib-native_system-win-i686\1.1\netlib-native_system-win-i686-1.1-natives.jar;C:\Users\Amy Lin\.m2\repository\net\sf\jafama\JaFaMa\1.2\JaFaMa-1.2.jar;C:\Users\Amy Lin\.m2\repository\jgrapht\jgrapht\0.8.2\jgrapht-0.8.2.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\MatrixLib\1.3.5\MatrixLib-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\com\googlecode\netlib-java\netlib-java\0.9.3\netlib-java-0.9.3.jar;C:\Users\Amy Lin\.m2\repository\gov\sandia\foundry\gov-sandia-cognition-common-core\3.3.0\gov-sandia-cognition-common-core-3.3.0.jar;C:\Users\Amy Lin\.m2\repository\com\thoughtworks\xstream\xstream\1.4.3\xstream-1.4.3.jar;C:\Users\Amy Lin\.m2\repository\xmlpull\xmlpull\1.1.3.1\xmlpull-1.1.3.1.jar;C:\Users\Amy Lin\.m2\repository\xpp3\xpp3_min\1.1.4c\xpp3_min-1.1.4c.jar;C:\Users\Amy Lin\.m2\repository\gov\sandia\foundry\gov-sandia-cognition-learning-core\3.3.0\gov-sandia-cognition-learning-core-3.3.0.jar;C:\Users\Amy Lin\.m2\repository\net\sourceforge\jmatio\jmatio\1.2\jmatio-1.2.jar;C:\Users\Amy Lin\.m2\repository\org\apache\commons\commons-math3\3.3\commons-math3-3.3.jar;C:\Users\Amy Lin\.m2\repository\org\apache\sanselan\sanselan\0.97-incubator\sanselan-0.97-incubator.jar;C:\Users\Amy Lin\.m2\repository\com\caffeineowl\bezier-utils\1.0.0-RELEASE\bezier-utils-1.0.0-RELEASE.jar;C:\Users\Amy Lin\.m2\repository\javax\media\jai-core\1.1.3\jai-core-1.1.3.jar;C:\Users\Amy Lin\.m2\repository\com\sun\media\jai-codec\1.1.3\jai-codec-1.1.3.jar;C:\Users\Amy Lin\.m2\repository\com\twelvemonkeys\imageio\imageio-jpeg\3.0-rc5\imageio-jpeg-3.0-rc5.jar;C:\Users\Amy Lin\.m2\repository\com\twelvemonkeys\imageio\imageio-metadata\3.0-rc5\imageio-metadata-3.0-rc5.jar;C:\Users\Amy Lin\.m2\repository\com\twelvemonkeys\common\common-io\3.0-rc5\common-io-3.0-rc5.jar;C:\Users\Amy Lin\.m2\repository\com\twelvemonkeys\common\common-image\3.0-rc5\common-image-3.0-rc5.jar;C:\Users\Amy Lin\.m2\repository\com\twelvemonkeys\imageio\imageio-core\3.0-rc5\imageio-core-3.0-rc5.jar;C:\Users\Amy Lin\.m2\repository\com\twelvemonkeys\common\common-lang\3.0-rc5\common-lang-3.0-rc5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\core-video\1.3.5\core-video-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\core-audio\1.3.5\core-audio-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\content\animation\1.3.5\animation-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\image-local-features\1.3.5\image-local-features-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\org\openimaj\xuggle-video\1.3.5\xuggle-video-1.3.5.jar;C:\Users\Amy Lin\.m2\repository\xuggle\xuggle-xuggler-lgpl\5.5-20140728\xuggle-xuggler-lgpl-5.5-20140728.jar;C:\Users\Amy Lin\.m2\repository\org\slf4j\slf4j-api\1.6.4\slf4j-api-1.6.4.jar;C:\Users\Amy Lin\.m2\repository\commons-cli\commons-cli\1.1\commons-cli-1.1.jar;C:\Users\Amy Lin\.m2\repository\ch\qos\logback\logback-core\1.0.0\logback-core-1.0.0.jar;C:\Users\Amy Lin\.m2\repository\ch\qos\logback\logback-classic\1.0.0\logback-classic-1.0.0.jar;C:\Program Files (x86)\JetBrains\IntelliJ IDEA Community Edition 2016.3.3\lib\idea_rt.jar" com.intellij.rt.execution.application.AppMain ImageAnnotation
+*************output\mainframes\0_0.0.jpg***********
+moon - 0.99168795
+abstract - 0.9909424
+eclipse - 0.9801122
+art - 0.9796424
+astronomy - 0.9790852
+no person - 0.9747098
+desktop - 0.97467077
+people - 0.9726776
+bird - 0.9633875
+background - 0.9629572
+pattern - 0.9615989
+sky - 0.95964473
+Luna - 0.95962864
+light - 0.9514599
+illustration - 0.9461236
+dark - 0.94355893
+crescent - 0.94353306
+wallpaper - 0.9402551
+texture - 0.92989844
+design - 0.92929125
+*************output\mainframes\1000_0.0033500837520938024.jpg***********
+water - 0.9795666
+ocean - 0.9745347
+sea - 0.97223604
+nature - 0.9699338
+desktop - 0.9401638
+underwater - 0.93315077
+fish - 0.90175164
+no person - 0.90072393
+sun - 0.86952263
+marine - 0.8664583
+fair weather - 0.86560756
+color - 0.86336446
+outdoors - 0.8616047
+seascape - 0.8604251
+landscape - 0.8601116
+tropical - 0.85519296
+travel - 0.8443196
+reef - 0.843994
+light - 0.8406428
+shoal - 0.8055985
+*************output\mainframes\1001_0.002233389168062535.jpg***********
+water - 0.99090004
+ocean - 0.989098
+sea - 0.98820853
+underwater - 0.98575723
+nature - 0.97819185
+fish - 0.9741185
+marine - 0.96613896
+swimming - 0.951115
+wildlife - 0.93648386
+no person - 0.9359989
+aquatic - 0.93500197
+desktop - 0.9278914
+animal - 0.9271589
+tropical - 0.9098477
+reef - 0.90374994
+travel - 0.87422115
+color - 0.87407327
+shoal - 0.87306476
+outdoors - 0.86426127
+seascape - 0.8556081
+*************output\mainframes\1002_0.0033500837520938024.jpg***********
+water - 0.9804719
+ocean - 0.9774773
+sea - 0.9715364
+underwater - 0.9675094
+nature - 0.9521108
+no person - 0.92905176
+desktop - 0.92491615
+fish - 0.92371184
+wildlife - 0.9151995
+marine - 0.9134612
+animal - 0.8787714
+swimming - 0.8688742
+aquatic - 0.86726123
+tropical - 0.83986
+color - 0.83101505
+travel - 0.80064905
+reflection - 0.797164
+seascape - 0.7861268
+outdoors - 0.7828858
+sun - 0.7806848
+*************output\mainframes\1003_0.0027917364600781687.jpg***********
+water - 0.9836508
+ocean - 0.98208106
+underwater - 0.9783951
+sea - 0.9769534
+fish - 0.95925045
+nature - 0.9505595
+marine - 0.93770623
+no person - 0.9366206
+desktop - 0.92167723
+wildlife - 0.9141294
+swimming - 0.91090083
+animal - 0.9025657
+aquatic - 0.89533997
+tropical - 0.87503886
+outdoors - 0.8402974
+reef - 0.839913
+fair weather - 0.8241081
+color - 0.822075
+travel - 0.8218297
+seascape - 0.8166226
+*************output\mainframes\1004_0.006700167504187605.jpg***********
+sea - 0.9817424
+water - 0.9805262
+ocean - 0.9774544
+underwater - 0.97678334
+nature - 0.9572412
+desktop - 0.95062035
+fish - 0.92584944
+marine - 0.91786146
+seascape - 0.88402784
+animal - 0.8821223
+wildlife - 0.87855256
+swimming - 0.874877
+reef - 0.8748231
+no person - 0.8708667
+aquatic - 0.8577882
+fair weather - 0.85625213
+sun - 0.8493885
+shoal - 0.84715545
+landscape - 0.84617865
+tropical - 0.83663595
+*************output\mainframes\1005_0.005025125628140704.jpg***********
+underwater - 0.98850954
+ocean - 0.98833954
+sea - 0.986743
+water - 0.98135024
+nature - 0.97531945
+fish - 0.9609067
+marine - 0.959666
+desktop - 0.9386686
+reef - 0.9315209
+aquatic - 0.92165434
+wildlife - 0.91043955
+swimming - 0.9052806
+animal - 0.9019171
+no person - 0.8940083
+seascape - 0.8758729
+fair weather - 0.8722206
+outdoors - 0.8652359
+diving - 0.86503184
+tropical - 0.8580259
+color - 0.857214
+*************output\mainframes\1006_0.006141820212171971.jpg***********
+ocean - 0.9856421
+water - 0.9848825
+underwater - 0.9842471
+sea - 0.98131704
+nature - 0.96999836
+no person - 0.965562
+fish - 0.9626085
+marine - 0.96180636
+wildlife - 0.94088304
+swimming - 0.93800724
+aquatic - 0.92169845
+animal - 0.9082624
+desktop - 0.885962
+tropical - 0.8838333
+outdoors - 0.8681096
+diving - 0.8607099
+reef - 0.8507535
+travel - 0.8445583
+aquarium - 0.8393769
+fair weather - 0.8347885
+*************output\mainframes\1007_0.0033500837520938024.jpg***********
+water - 0.988575
+underwater - 0.9874258
+ocean - 0.98163295
+sea - 0.9774799
+fish - 0.9730966
+nature - 0.9612552
+marine - 0.9582923
+wildlife - 0.95640707
+no person - 0.9520515
+swimming - 0.94537723
+aquatic - 0.93238604
+animal - 0.92600346
+tropical - 0.8771836
+travel - 0.8745574
+outdoors - 0.8721266
+desktop - 0.8669249
+reef - 0.86452633
+submarine - 0.8471069
+shark - 0.8368374
+shoal - 0.8177468
+*************output\mainframes\1008_0.003908431044109436.jpg***********
+underwater - 0.9868096
+water - 0.9858822
+ocean - 0.9856727
+sea - 0.97865355
+marine - 0.9738703
+fish - 0.9726619
+nature - 0.9708308
+wildlife - 0.9599819
+swimming - 0.94713116
+aquatic - 0.9460886
+animal - 0.93794966
+no person - 0.93523705
+desktop - 0.91856503
+tropical - 0.90358937
+travel - 0.8606811
+diving - 0.8602549
+outdoors - 0.859934
+reef - 0.8541844
+wild - 0.8524929
+fair weather - 0.8301201
+*************output\mainframes\1009_0.003908431044109436.jpg***********
+water - 0.9881647
+underwater - 0.9808543
+ocean - 0.97494185
+sea - 0.97364545
+nature - 0.9619211
+fish - 0.96110153
+no person - 0.95653665
+marine - 0.9391518
+aquatic - 0.9361894
+wildlife - 0.9228911
+tropical - 0.90340495
+swimming - 0.89474607
+travel - 0.8882034
+desktop - 0.873693
+animal - 0.8735956
+outdoors - 0.8715549
+reef - 0.8593464
+submarine - 0.85414386
+ecosystem - 0.8395854
+fair weather - 0.82317644
+*************output\mainframes\1010_0.005025125628140704.jpg***********
+underwater - 0.9933403
+water - 0.9926501
+ocean - 0.99156773
+sea - 0.9901521
+fish - 0.9807155
+nature - 0.9710604
+marine - 0.97040296
+swimming - 0.9569732
+aquatic - 0.95618165
+desktop - 0.95615894
+tropical - 0.94744986
+reef - 0.9329637
+wildlife - 0.9297051
+animal - 0.9198077
+no person - 0.9113672
+submarine - 0.9043876
+seascape - 0.89660275
+diving - 0.8901764
+saltwater - 0.8881607
+ecosystem - 0.8753571
+*************output\mainframes\1011_0.0033500837520938024.jpg***********
+water - 0.98666584
+sea - 0.98600686
+ocean - 0.9854441
+underwater - 0.985111
+nature - 0.9726393
+desktop - 0.96733975
+fish - 0.95580393
+marine - 0.930122
+reef - 0.9194981
+no person - 0.9123487
+tropical - 0.91126466
+color - 0.8997092
+sun - 0.89822185
+light - 0.88922
+fair weather - 0.88569957
+aquatic - 0.88237023
+school of fish - 0.8740915
+landscape - 0.8739733
+ecosystem - 0.8717289
+environment - 0.8704821
+*************output\mainframes\1012_0.0027917364600781687.jpg***********
+ocean - 0.98730886
+water - 0.98685414
+sea - 0.98620075
+underwater - 0.9854208
+fish - 0.98247564
+nature - 0.97788525
+marine - 0.9709008
+desktop - 0.9436251
+tropical - 0.9305909
+wildlife - 0.9282421
+animal - 0.92704284
+aquatic - 0.92236537
+swimming - 0.9165862
+no person - 0.9109947
+reef - 0.89708745
+travel - 0.87821937
+ecosystem - 0.8607764
+color - 0.85646904
+shoal - 0.85428345
+school of fish - 0.8516612
+*************output\mainframes\1013_0.0033500837520938024.jpg***********
+sea - 0.99067444
+underwater - 0.98877853
+ocean - 0.9885119
+water - 0.98841536
+fish - 0.9791577
+nature - 0.978135
+desktop - 0.9758008
+marine - 0.9527248
+tropical - 0.92722917
+reef - 0.9224223
+color - 0.90631986
+aquatic - 0.90487105
+seascape - 0.8992954
+sun - 0.8912358
+light - 0.88235223
+no person - 0.8739643
+swimming - 0.8709666
+landscape - 0.86988914
+animal - 0.85698575
+fair weather - 0.85287166
+*************output\mainframes\1014_0.0027917364600781687.jpg***********
+sea - 0.9880724
+water - 0.9880009
+ocean - 0.98384315
+underwater - 0.98328733
+nature - 0.9763515
+desktop - 0.975798
+fish - 0.95211136
+sun - 0.936558
+marine - 0.92409277
+no person - 0.92332256
+tropical - 0.919243
+color - 0.9064386
+fair weather - 0.9022769
+reef - 0.8861974
+swimming - 0.87171155
+seascape - 0.8708271
+travel - 0.8661308
+clear - 0.8606865
+summer - 0.8572507
+light - 0.85617864
+*************output\mainframes\1015_0.0027917364600781687.jpg***********
+sea - 0.98693836
+ocean - 0.9867539
+underwater - 0.98520815
+water - 0.98255455
+desktop - 0.9718988
+nature - 0.9615402
+fish - 0.9594251
+marine - 0.94162625
+swimming - 0.9195994
+color - 0.8950751
+reef - 0.893602
+tropical - 0.88913655
+seascape - 0.8862355
+no person - 0.88104206
+aquatic - 0.86220217
+sun - 0.8605019
+fair weather - 0.85589075
+light - 0.83949304
+animal - 0.8285153
+shoal - 0.8213402
+*************output\mainframes\1016_0.005025125628140704.jpg***********
+sea - 0.9885367
+ocean - 0.98827183
+underwater - 0.983267
+water - 0.9782163
+desktop - 0.97377133
+fish - 0.96834445
+nature - 0.9665482
+marine - 0.92951673
+no person - 0.91211355
+color - 0.9011646
+swimming - 0.8985027
+sun - 0.8941401
+light - 0.8902063
+seascape - 0.88575685
+tropical - 0.8819193
+fair weather - 0.8811718
+reef - 0.8501325
+landscape - 0.8401107
+aquatic - 0.83937496
+animal - 0.83518374
+*************output\mainframes\1017_0.0027917364600781687.jpg***********
+water - 0.99204457
+sea - 0.9902569
+underwater - 0.98986304
+tropical - 0.9878547
+ocean - 0.98713815
+nature - 0.98229456
+reef - 0.9688335
+coral - 0.9675691
+seascape - 0.96000457
+travel - 0.9568044
+sun - 0.92414236
+diving - 0.91962737
+fair weather - 0.9121923
+vacation - 0.9012048
+fish - 0.8993435
+tourism - 0.8938323
+marine - 0.87446105
+turquoise - 0.8725641
+landscape - 0.8721
+snorkeling - 0.87189746
+*************output\mainframes\1047_0.0016750418760469012.jpg***********
+water - 0.9961653
+winter - 0.9774333
+snow - 0.9747505
+nature - 0.97079384
+no person - 0.9700889
+landscape - 0.96618986
+ice - 0.96394
+outdoors - 0.95220184
+cold - 0.9418169
+sea - 0.9313419
+travel - 0.91944826
+sky - 0.91646004
+ocean - 0.90992224
+reflection - 0.9089215
+motion - 0.90320295
+lake - 0.8991084
+sunset - 0.8900058
+river - 0.88705623
+beach - 0.8694571
+H2O - 0.8494965
+*************output\mainframes\1073_0.009491903964265773.jpg***********
+water - 0.99525404
+nature - 0.9687953
+landscape - 0.95954204
+sea - 0.95724726
+no person - 0.94884264
+ocean - 0.94766545
+outdoors - 0.94440275
+river - 0.93178195
+ice - 0.92945313
+lake - 0.92583907
+motion - 0.9185842
+winter - 0.9166644
+travel - 0.91275334
+snow - 0.9090044
+cold - 0.89318275
+reflection - 0.8908613
+desktop - 0.8893162
+sky - 0.874771
+scenic - 0.85182714
+beach - 0.8514261
+*************output\mainframes\1074_0.0016750418760469012.jpg***********
+frog - 0.9959266
+wildlife - 0.9944788
+amphibian - 0.98801655
+nature - 0.98741114
+animal - 0.9858235
+no person - 0.98460364
+leaf - 0.9797784
+outdoors - 0.96722376
+little - 0.9499074
+one - 0.9438048
+wild - 0.92384624
+camouflage - 0.9031628
+water - 0.89809626
+zoology - 0.89365274
+eye - 0.8926077
+summer - 0.8856673
+sit - 0.88046014
+closeup - 0.8790481
+flora - 0.8722578
+side view - 0.87148607
+*************output\mainframes\1090_0.002233389168062535.jpg***********
+water - 0.9871342
+no person - 0.9678056
+frosty - 0.96332175
+nature - 0.960182
+ocean - 0.9571923
+sea - 0.95673025
+outdoors - 0.9373459
+mammal - 0.9298191
+wildlife - 0.92782354
+polar - 0.9269101
+marine - 0.89841664
+ice - 0.89832723
+winter - 0.8756566
+animal - 0.86299443
+summer - 0.86132896
+seashore - 0.82845795
+daylight - 0.82638794
+wild - 0.8260794
+travel - 0.8197366
+cold - 0.8168293
+*************output\mainframes\1120_0.007816862088218872.jpg***********
+water - 0.99353373
+sea - 0.98419785
+nature - 0.9717015
+ocean - 0.96252716
+no person - 0.949998
+outdoors - 0.9478632
+wave - 0.927021
+surf - 0.90682566
+summer - 0.9011
+sky - 0.8927822
+seascape - 0.8876381
+landscape - 0.88719404
+beach - 0.8728585
+ice - 0.86953634
+seashore - 0.8600868
+horizontal plane - 0.85850316
+iceberg - 0.83966637
+frosty - 0.8322878
+winter - 0.8255278
+travel - 0.8251287
+*************output\mainframes\1124_0.005025125628140704.jpg***********
+water - 0.9955698
+sea - 0.9890577
+ocean - 0.97648203
+nature - 0.9706172
+iceberg - 0.9661614
+ice - 0.95180845
+winter - 0.9439057
+no person - 0.94340736
+frosty - 0.936591
+sky - 0.93247175
+outdoors - 0.93211204
+landscape - 0.92651606
+cold - 0.9206717
+snow - 0.9195678
+horizontal plane - 0.91633755
+wave - 0.91217256
+seascape - 0.9107867
+travel - 0.89757085
+beach - 0.8924703
+surf - 0.8894379
+*************output\mainframes\1137_0.007816862088218872.jpg***********
+water - 0.99640894
+sea - 0.98456585
+ice - 0.9818703
+ocean - 0.9778512
+nature - 0.9745488
+iceberg - 0.9656657
+winter - 0.96489155
+cold - 0.9589994
+frosty - 0.95245737
+snow - 0.9431776
+no person - 0.93233114
+frozen - 0.920262
+outdoors - 0.91385466
+landscape - 0.8982651
+reflection - 0.88952225
+travel - 0.87024
+lake - 0.8690004
+H2O - 0.8438809
+whale - 0.8421278
+spray - 0.8324998
+*************output\mainframes\1139_0.007816862088218872.jpg***********
+water - 0.99783945
+ocean - 0.9931961
+sea - 0.9915529
+nature - 0.97461337
+whale - 0.96949726
+marine - 0.9603076
+ice - 0.95948744
+cold - 0.95864356
+swimming - 0.95508254
+wildlife - 0.9476551
+frosty - 0.9419286
+no person - 0.9405837
+aquatic - 0.9308461
+winter - 0.9297148
+blower - 0.90770584
+reflection - 0.90346706
+wave - 0.8931649
+bird - 0.88295346
+snow - 0.87528217
+outdoors - 0.8720745
+*************output\mainframes\1140_0.009491903964265773.jpg***********
+water - 0.9961271
+ocean - 0.99210393
+sea - 0.9901265
+ice - 0.9700326
+nature - 0.9659742
+no person - 0.96057606
+whale - 0.9600947
+frosty - 0.9531807
+cold - 0.9387778
+iceberg - 0.93263096
+marine - 0.9296458
+winter - 0.9132935
+outdoors - 0.8958243
+blower - 0.88618773
+wave - 0.8851972
+motion - 0.88047564
+reflection - 0.87357086
+spray - 0.85745287
+snow - 0.855589
+seashore - 0.83770967
+*************output\mainframes\1141_0.006141820212171971.jpg***********
+water - 0.99763656
+ocean - 0.991677
+sea - 0.986387
+no person - 0.9744575
+nature - 0.9519901
+cold - 0.9398036
+marine - 0.93786955
+ice - 0.93210983
+whale - 0.9315833
+outdoors - 0.9287282
+frosty - 0.91491926
+swimming - 0.9069481
+wave - 0.8998076
+seashore - 0.8924245
+winter - 0.8689086
+motion - 0.86872935
+surf - 0.85240895
+beach - 0.8447676
+blower - 0.84028554
+travel - 0.84026796
+*************output\mainframes\1142_0.0033500837520938024.jpg***********
+water - 0.9964913
+ocean - 0.9905533
+sea - 0.9872935
+no person - 0.9830856
+nature - 0.96039176
+whale - 0.9582752
+marine - 0.9433112
+cold - 0.9354973
+blower - 0.93494403
+outdoors - 0.9210193
+swimming - 0.9054818
+frosty - 0.898503
+wildlife - 0.8963856
+ice - 0.8862971
+motion - 0.8835037
+aquatic - 0.8654295
+reflection - 0.8456538
+wave - 0.8410446
+action - 0.8366306
+seascape - 0.8112266
+*************output\mainframes\1143_0.0033500837520938024.jpg***********
+water - 0.99719095
+ocean - 0.9894147
+sea - 0.987379
+no person - 0.9794001
+cold - 0.97282386
+nature - 0.97105265
+ice - 0.9695523
+marine - 0.9344952
+frosty - 0.9340708
+outdoors - 0.93114334
+whale - 0.9307227
+winter - 0.9248563
+reflection - 0.91288537
+motion - 0.87578356
+wave - 0.85503304
+dark - 0.85328114
+sunset - 0.8511102
+snow - 0.8506229
+swimming - 0.8496299
+evening - 0.8482764
+*************output\mainframes\1144_0.006141820212171971.jpg***********
+water - 0.99807703
+ocean - 0.9939301
+sea - 0.9896232
+no person - 0.9876076
+nature - 0.9760071
+whale - 0.9663148
+marine - 0.9545197
+swimming - 0.94515896
+cold - 0.9449062
+blower - 0.9370626
+ice - 0.9205011
+outdoors - 0.9163574
+reflection - 0.9085734
+wildlife - 0.8964617
+beach - 0.8901016
+aquatic - 0.8871491
+sunset - 0.8869399
+frosty - 0.8705792
+placid - 0.8641176
+motion - 0.8613012
+*************output\mainframes\1145_0.00446677833612507.jpg***********
+water - 0.9962831
+no person - 0.9864484
+ocean - 0.9853046
+sea - 0.9828268
+nature - 0.9569677
+whale - 0.9490534
+swimming - 0.9420153
+outdoors - 0.91283876
+cold - 0.9069919
+blower - 0.90033674
+marine - 0.89114666
+ice - 0.87698567
+frosty - 0.8695048
+reflection - 0.860718
+wildlife - 0.8478998
+beach - 0.8412143
+wave - 0.83093965
+motion - 0.8237145
+seashore - 0.8120674
+aquatic - 0.78729767
+*************output\mainframes\1146_0.002233389168062535.jpg***********
+water - 0.99753577
+no person - 0.99028176
+sea - 0.9784918
+ocean - 0.97664773
+swimming - 0.96806926
+nature - 0.9601358
+outdoors - 0.9579066
+whale - 0.9445183
+wildlife - 0.9255682
+reflection - 0.91748035
+frosty - 0.8958698
+ice - 0.8947449
+cold - 0.8934397
+aquatic - 0.8901876
+blower - 0.88773644
+seashore - 0.8778792
+marine - 0.87520224
+beach - 0.87289655
+motion - 0.87063587
+wave - 0.85460246
+*************output\mainframes\1147_0.0027917364600781687.jpg***********
+water - 0.9971155
+no person - 0.9915476
+sea - 0.985363
+ocean - 0.980517
+nature - 0.9660418
+outdoors - 0.9601909
+sunset - 0.94321716
+seashore - 0.9297966
+beach - 0.9180455
+reflection - 0.9149541
+cold - 0.9146843
+seascape - 0.9040359
+ice - 0.90265054
+horizontal plane - 0.90026414
+whale - 0.89937913
+dawn - 0.8963757
+winter - 0.87804747
+panoramic - 0.8743875
+dusk - 0.86942166
+frosty - 0.86892223
+*************output\mainframes\1148_0.0033500837520938024.jpg***********
+water - 0.9973159
+no person - 0.9933782
+sea - 0.9902282
+ocean - 0.98990905
+nature - 0.9721578
+sunset - 0.9709767
+outdoors - 0.96883917
+beach - 0.9598905
+seashore - 0.95463693
+bird - 0.9440733
+dawn - 0.94382274
+winter - 0.9415955
+dusk - 0.9352312
+evening - 0.9349959
+reflection - 0.92927384
+cold - 0.92883074
+ice - 0.9224764
+frosty - 0.9205594
+seascape - 0.91382444
+sky - 0.9111278
+*************output\mainframes\1149_0.0027917364600781687.jpg***********
+no person - 0.99703866
+water - 0.9969399
+sea - 0.980121
+ocean - 0.97967577
+outdoors - 0.9665552
+whale - 0.9656931
+nature - 0.96489614
+sunset - 0.9542452
+wildlife - 0.91914093
+blower - 0.9166752
+swimming - 0.9025515
+frosty - 0.90119135
+dawn - 0.8924397
+cold - 0.8889221
+dusk - 0.8860685
+beach - 0.8797355
+seashore - 0.877552
+ice - 0.8758068
+reflection - 0.86346924
+seascape - 0.8595499
+*************output\mainframes\1150_0.0016750418760469012.jpg***********
+no person - 0.99789387
+water - 0.99780524
+ocean - 0.9839908
+sea - 0.97777927
+sunset - 0.9539386
+outdoors - 0.938704
+nature - 0.9265859
+whale - 0.91809714
+beach - 0.9139325
+seashore - 0.90466577
+winter - 0.8904301
+bird - 0.8897233
+cold - 0.8835023
+frosty - 0.8832129
+placid - 0.8830253
+wildlife - 0.87916976
+ice - 0.8787135
+travel - 0.8742076
+dawn - 0.8707653
+reflection - 0.8604994
+*************output\mainframes\1151_0.002233389168062535.jpg***********
+water - 0.9977713
+no person - 0.997736
+ocean - 0.99278545
+sea - 0.9876652
+whale - 0.96286726
+bird - 0.9579727
+nature - 0.9545763
+beach - 0.9504763
+outdoors - 0.9441823
+seashore - 0.94242495
+sunset - 0.93743485
+travel - 0.9190103
+winter - 0.9127724
+cold - 0.90853965
+wildlife - 0.9065253
+frosty - 0.89973104
+placid - 0.8990879
+watercraft - 0.8985846
+seascape - 0.89753777
+reflection - 0.8930392
+*************output\mainframes\1152_0.0011166945840312675.jpg***********
+water - 0.99792093
+no person - 0.9951292
+ocean - 0.995106
+sea - 0.99180585
+beach - 0.96078545
+nature - 0.957863
+sunset - 0.95197
+whale - 0.9468369
+seascape - 0.93046796
+wildlife - 0.92667377
+outdoors - 0.91375446
+seashore - 0.8966551
+wave - 0.89577234
+travel - 0.89246243
+bird - 0.8883219
+evening - 0.88011456
+light - 0.87955487
+storm - 0.8786794
+swimming - 0.87546957
+landscape - 0.86965
+*************output\mainframes\1153_0.0011166945840312675.jpg***********
+water - 0.99493086
+no person - 0.9947163
+ocean - 0.9898678
+sea - 0.9830955
+nature - 0.9530343
+wildlife - 0.93568707
+whale - 0.9200616
+beach - 0.9175426
+outdoors - 0.9095447
+seascape - 0.8999274
+marine - 0.89845544
+sunset - 0.892413
+swimming - 0.88341844
+wave - 0.8641307
+seashore - 0.8635473
+light - 0.85378957
+dark - 0.8387301
+evening - 0.83610904
+landscape - 0.8340173
+reflection - 0.8289597
+*************output\mainframes\1154_5.583472920156337E-4.jpg***********
+water - 0.99318767
+no person - 0.9913554
+ocean - 0.989386
+sea - 0.98724794
+nature - 0.9831139
+panoramic - 0.9716674
+lake - 0.93442035
+dark - 0.93397605
+seascape - 0.932452
+reflection - 0.9316014
+outdoors - 0.93151814
+desktop - 0.9111777
+light - 0.9101813
+sunset - 0.90287876
+wave - 0.8944371
+landscape - 0.8931465
+beach - 0.8605088
+whale - 0.8584285
+travel - 0.8524597
+wildlife - 0.8462701
+*************output\mainframes\147_0.0.jpg***********
+abstract - 0.99451566
+desktop - 0.9831183
+art - 0.9809998
+texture - 0.98098296
+background - 0.97755563
+no person - 0.9721453
+design - 0.9669314
+pattern - 0.96312153
+wallpaper - 0.94063246
+nature - 0.93610746
+fabric - 0.9342213
+dark - 0.928452
+panoramic - 0.9228083
+old - 0.92194366
+color - 0.91193694
+textile - 0.88683105
+graphic - 0.87689185
+sky - 0.86841357
+wall - 0.8607819
+street - 0.86015415
+*************output\mainframes\148_0.0.jpg***********
+portrait - 0.9757408
+eye - 0.97021806
+face - 0.96617055
+dark - 0.963192
+young - 0.9518299
+cute - 0.9425546
+looking - 0.94172806
+people - 0.937076
+one - 0.92463094
+monkey - 0.915076
+mammal - 0.9125071
+nature - 0.910075
+animal - 0.9032006
+no person - 0.89897394
+wildlife - 0.8904419
+adult - 0.86368155
+hair - 0.86137724
+staring - 0.84995157
+desktop - 0.84658885
+dog - 0.84535706
+*************output\mainframes\149_0.0.jpg***********
+portrait - 0.99363554
+people - 0.98287463
+face - 0.97785276
+adult - 0.9722928
+woman - 0.9624692
+young - 0.95623827
+girl - 0.9502231
+eye - 0.94018626
+one - 0.93834627
+dark - 0.9283889
+desktop - 0.9247039
+beautiful - 0.9118068
+man - 0.90788376
+person - 0.90039885
+human - 0.87101865
+cute - 0.8609476
+model - 0.85756683
+color - 0.85673904
+blur - 0.8517399
+child - 0.8468771
+*************output\mainframes\150_0.0033500837520938024.jpg***********
+portrait - 0.9930701
+face - 0.9845029
+woman - 0.97854245
+people - 0.9706783
+girl - 0.970344
+young - 0.96249425
+eye - 0.9483112
+adult - 0.9476889
+beautiful - 0.9362104
+lips - 0.9228018
+one - 0.9132668
+fashion - 0.9121065
+dark - 0.9119197
+desktop - 0.8984397
+cute - 0.8963403
+pretty - 0.894281
+person - 0.88930196
+model - 0.8880991
+skin - 0.8631573
+human - 0.8622638
+*************output\mainframes\151_0.009491903964265773.jpg***********
+portrait - 0.99240005
+face - 0.99210286
+girl - 0.988442
+woman - 0.9821464
+beautiful - 0.9802822
+young - 0.97407097
+people - 0.96610206
+eye - 0.9617801
+adult - 0.9554342
+lips - 0.9543687
+pretty - 0.94265485
+person - 0.94108164
+model - 0.9355235
+skin - 0.9337776
+one - 0.93272346
+fashion - 0.93025863
+cute - 0.92601603
+human - 0.9251001
+desktop - 0.91798276
+closeup - 0.9134357
+*************output\mainframes\177_0.0027917364600781687.jpg***********
+people - 0.9693629
+nature - 0.9556147
+one - 0.9473724
+adult - 0.9288626
+food - 0.9161254
+leaf - 0.9134544
+child - 0.91302776
+outdoors - 0.90987
+war - 0.9092506
+woman - 0.90256345
+summer - 0.8941177
+wood - 0.8882246
+man - 0.8868695
+girl - 0.8866788
+young - 0.8793202
+garden - 0.86514914
+person - 0.8566742
+battle - 0.8486682
+army - 0.8473898
+tree - 0.84515584
+*************output\mainframes\1_0.0.jpg***********
+abstract - 0.98800445
+dark - 0.97582746
+art - 0.969702
+no person - 0.9690428
+panoramic - 0.9607822
+desktop - 0.95559704
+pattern - 0.94641674
+silhouette - 0.93354386
+texture - 0.9293131
+light - 0.9273808
+background - 0.9166704
+wallpaper - 0.9102509
+street - 0.9076179
+insubstantial - 0.9050645
+blur - 0.9039756
+moon - 0.8941244
+design - 0.89381516
+people - 0.8731407
+wall - 0.87029564
+nature - 0.8689574
+*************output\mainframes\208_0.002233389168062535.jpg***********
+nature - 0.9962182
+animal - 0.9789296
+desktop - 0.978851
+closeup - 0.97357225
+tropical - 0.96500766
+wildlife - 0.9648845
+underwater - 0.9570067
+water - 0.94664925
+one - 0.93275154
+wild - 0.92359734
+color - 0.92228997
+exotic - 0.9207073
+flora - 0.9190645
+fish - 0.91275597
+ocean - 0.9075192
+no person - 0.9041276
+aquarium - 0.90110326
+head - 0.8866105
+reptile - 0.8812208
+sea - 0.8616222
+*************output\mainframes\238_0.0016750418760469012.jpg***********
+nature - 0.9963212
+insect - 0.99136376
+flower - 0.986095
+summer - 0.9834788
+closeup - 0.9827646
+leaf - 0.9792185
+garden - 0.9776403
+outdoors - 0.9720285
+beautiful - 0.97122794
+flora - 0.9678477
+desktop - 0.9592395
+color - 0.95444965
+little - 0.9516997
+close - 0.9514343
+bright - 0.9458284
+wild - 0.9372375
+food - 0.92967296
+no person - 0.91157335
+floral - 0.90792143
+park - 0.9065534
+*************output\mainframes\267_0.002233389168062535.jpg***********
+desktop - 0.9711435
+nature - 0.9646101
+bright - 0.96091795
+no person - 0.95194006
+beautiful - 0.94229305
+color - 0.931868
+light - 0.9141691
+tropical - 0.8955624
+closeup - 0.8899546
+pattern - 0.86527765
+feather - 0.84604126
+texture - 0.8289933
+outdoors - 0.82545125
+exotic - 0.82432854
+design - 0.82055926
+head - 0.81653
+one - 0.8151373
+elegant - 0.8144961
+dark - 0.8098537
+decoration - 0.80769366
+*************output\mainframes\271_0.006700167504187605.jpg***********
+nature - 0.9817194
+beautiful - 0.96669114
+desktop - 0.96175283
+bright - 0.9610902
+no person - 0.9599465
+color - 0.95555985
+outdoors - 0.95376563
+tropical - 0.93866605
+feather - 0.9317963
+light - 0.88567424
+animal - 0.8749653
+vibrant - 0.8742014
+water - 0.86162007
+texture - 0.8519827
+bird - 0.8468132
+summer - 0.8390881
+tree - 0.83706623
+blur - 0.8349607
+decoration - 0.830472
+closeup - 0.82866794
+*************output\mainframes\272_0.007816862088218872.jpg***********
+bird - 0.99785197
+nature - 0.9920082
+feather - 0.9876336
+wildlife - 0.9858271
+outdoors - 0.9759949
+animal - 0.9739021
+beak - 0.9668534
+color - 0.9634867
+one - 0.95034766
+bright - 0.94995415
+beautiful - 0.94619304
+desktop - 0.9452236
+park - 0.92827976
+blur - 0.9235381
+wing - 0.9229094
+wild - 0.9223753
+horizontal - 0.90269417
+zoo - 0.8950966
+tropical - 0.8949653
+avian - 0.8799752
+*************output\mainframes\273_0.007816862088218872.jpg***********
+water - 0.96909356
+nature - 0.9613057
+outdoors - 0.96091247
+splash - 0.95440555
+blur - 0.95105493
+abstract - 0.9500719
+desktop - 0.94084114
+landscape - 0.93866485
+summer - 0.9329274
+fall - 0.92047244
+H2O - 0.9194477
+bright - 0.902537
+art - 0.90205574
+wood - 0.899408
+light - 0.89127284
+color - 0.88828635
+design - 0.8836111
+brush - 0.87835014
+artistic - 0.8712269
+watercolor - 0.86935663
+*************output\mainframes\274_0.003908431044109436.jpg***********
+desktop - 0.98717403
+nature - 0.98054755
+bird - 0.9720429
+color - 0.97004426
+tropical - 0.9567815
+beautiful - 0.9526427
+water - 0.94951546
+animal - 0.94737256
+outdoors - 0.93520606
+feather - 0.9319123
+bright - 0.93062097
+no person - 0.9293778
+texture - 0.9269802
+turquoise - 0.90616536
+vibrant - 0.9029641
+wildlife - 0.9003773
+pattern - 0.88267136
+design - 0.88094604
+peacock - 0.8778199
+flora - 0.87232184
+*************output\mainframes\2_0.0.jpg***********
+abstract - 0.9826208
+desktop - 0.97959256
+dark - 0.9682275
+panoramic - 0.96418524
+no person - 0.96028554
+people - 0.94141054
+light - 0.93548745
+art - 0.93067896
+nature - 0.9296403
+silhouette - 0.9273509
+texture - 0.91710687
+pattern - 0.9089134
+portrait - 0.90570337
+background - 0.90165323
+color - 0.8920831
+side view - 0.8848903
+insubstantial - 0.873971
+design - 0.8664044
+shadow - 0.8562158
+nude - 0.85565996
+*************output\mainframes\327_0.0027917364600781687.jpg***********
+water - 0.9941344
+sea - 0.9925128
+ocean - 0.991141
+underwater - 0.9827647
+landscape - 0.98069835
+nature - 0.97478133
+travel - 0.9681864
+reef - 0.9606726
+outdoors - 0.9367503
+tourism - 0.93121946
+adventure - 0.9276936
+scenic - 0.9254201
+seascape - 0.9133078
+beautiful - 0.90668225
+swimming - 0.9040161
+tropical - 0.9030733
+environment - 0.89878976
+diving - 0.8913882
+light - 0.8773
+coral - 0.8764343
+*************output\mainframes\334_0.005583472920156337.jpg***********
+underwater - 0.9961617
+sea - 0.9929615
+water - 0.9916427
+ocean - 0.9911307
+nature - 0.97271204
+fish - 0.9494201
+seascape - 0.9384453
+landscape - 0.9357964
+reef - 0.93484855
+marine - 0.9343723
+swimming - 0.9223994
+diving - 0.9079979
+travel - 0.90225947
+outdoors - 0.9008084
+fair weather - 0.89739424
+sun - 0.8910755
+aquatic - 0.88347995
+light - 0.8783158
+wildlife - 0.87305474
+submarine - 0.8584174
+*************output\mainframes\335_0.009491903964265773.jpg***********
+underwater - 0.998243
+water - 0.9944904
+sea - 0.9909271
+ocean - 0.9842894
+nature - 0.97694504
+swimming - 0.96113825
+fish - 0.94183147
+diving - 0.9396161
+fair weather - 0.9281312
+reef - 0.9270264
+seascape - 0.9254691
+landscape - 0.92279273
+sun - 0.911691
+submarine - 0.9052434
+outdoors - 0.90128124
+marine - 0.90028393
+travel - 0.90011954
+aquatic - 0.8750702
+tropical - 0.87086445
+light - 0.85760915
+*************output\mainframes\338_0.007816862088218872.jpg***********
+underwater - 0.9945525
+sea - 0.99018264
+water - 0.9874833
+ocean - 0.987285
+landscape - 0.9843458
+seascape - 0.94669783
+nature - 0.9450145
+light - 0.9351568
+reef - 0.91781735
+scenic - 0.91339767
+travel - 0.9084097
+fair weather - 0.8966205
+outdoors - 0.8965685
+diving - 0.8898445
+sun - 0.87770045
+environment - 0.8761039
+fog - 0.85772336
+adventure - 0.8577093
+fish - 0.85746914
+submarine - 0.85624456
+*************output\mainframes\339_0.00893355667225014.jpg***********
+underwater - 0.996246
+sea - 0.99324137
+water - 0.99003994
+ocean - 0.9858048
+nature - 0.98449624
+landscape - 0.97340375
+fair weather - 0.9582051
+seascape - 0.9520378
+sun - 0.94938385
+diving - 0.9325745
+reef - 0.9286593
+travel - 0.9283134
+light - 0.92657375
+desktop - 0.9180995
+outdoors - 0.90516555
+scuba - 0.8966121
+deep - 0.89458525
+submarine - 0.89173114
+tropical - 0.88675296
+scenic - 0.88231844
+*************output\mainframes\3_0.0016750418760469012.jpg***********
+light - 0.9642973
+people - 0.9563489
+desktop - 0.9525248
+landscape - 0.9392529
+blur - 0.9318047
+abstract - 0.92701674
+backlit - 0.9207806
+silhouette - 0.91732097
+color - 0.90695
+art - 0.8986483
+water - 0.8845188
+adult - 0.86842936
+panoramic - 0.8528989
+no person - 0.8461801
+shadow - 0.81967616
+daylight - 0.81830466
+rock - 0.81744313
+one - 0.8069631
+side view - 0.80590564
+portrait - 0.798018
+*************output\mainframes\422_0.008375209380234505.jpg***********
+water - 0.9895639
+ocean - 0.986011
+sea - 0.9850222
+nature - 0.98086554
+underwater - 0.97693115
+outdoors - 0.9432684
+no person - 0.93638813
+whale - 0.9146617
+wildlife - 0.91215163
+travel - 0.89088154
+swimming - 0.88942504
+diving - 0.87394416
+marine - 0.8683169
+Pacific - 0.8640922
+sun - 0.84732234
+fair weather - 0.84633946
+seascape - 0.83688056
+adventure - 0.8364799
+blower - 0.81504166
+aquatic - 0.7999806
+*************output\mainframes\423_0.008375209380234505.jpg***********
+ocean - 0.9909018
+sea - 0.99058807
+water - 0.99034035
+underwater - 0.98606396
+nature - 0.97668314
+outdoors - 0.922768
+whale - 0.92220414
+no person - 0.9153362
+seascape - 0.9099417
+travel - 0.89934343
+marine - 0.8979499
+diving - 0.8974956
+wildlife - 0.8928964
+swimming - 0.8803745
+Pacific - 0.8779103
+reef - 0.8720505
+sun - 0.85401237
+aquatic - 0.8433979
+desktop - 0.8311925
+fair weather - 0.8268565
+*************output\mainframes\424_0.007816862088218872.jpg***********
+ocean - 0.9905022
+sea - 0.9885441
+underwater - 0.9871484
+water - 0.9866083
+nature - 0.9661797
+whale - 0.9452042
+marine - 0.9252138
+no person - 0.91074026
+swimming - 0.89889604
+travel - 0.8914175
+diving - 0.8886074
+blower - 0.8869902
+outdoors - 0.88535225
+aquatic - 0.8804591
+wildlife - 0.8735311
+Pacific - 0.87040174
+shark - 0.86817765
+fish - 0.86103106
+seascape - 0.8552463
+reef - 0.855018
+*************output\mainframes\431_0.008375209380234505.jpg***********
+ocean - 0.99313056
+sea - 0.99076724
+water - 0.9896493
+underwater - 0.9893095
+nature - 0.96923226
+whale - 0.95968187
+marine - 0.9539908
+swimming - 0.9383635
+wildlife - 0.93673146
+aquatic - 0.9267831
+blower - 0.9231672
+aquarium - 0.897705
+outdoors - 0.8814833
+no person - 0.8799521
+diving - 0.87970304
+fish - 0.8750885
+Pacific - 0.86518824
+animal - 0.8334874
+seascape - 0.8277484
+shark - 0.8182527
+*************output\mainframes\433_0.009491903964265773.jpg***********
+ocean - 0.9914347
+sea - 0.9886949
+underwater - 0.98843944
+water - 0.98425704
+nature - 0.94948584
+marine - 0.94273627
+swimming - 0.9308272
+whale - 0.92265815
+wildlife - 0.91585755
+aquatic - 0.9003804
+aquarium - 0.8989625
+fish - 0.88340694
+diving - 0.8699647
+blower - 0.8642747
+no person - 0.8395115
+outdoors - 0.80982614
+animal - 0.80771166
+travel - 0.78035474
+seascape - 0.7777456
+Pacific - 0.77434516
+*************output\mainframes\434_0.009491903964265773.jpg***********
+ocean - 0.9893993
+underwater - 0.9890934
+sea - 0.9882556
+water - 0.9822633
+nature - 0.96810097
+marine - 0.94009286
+wildlife - 0.92091644
+swimming - 0.9172713
+fish - 0.906481
+aquatic - 0.904788
+aquarium - 0.9020486
+whale - 0.8911933
+diving - 0.87522095
+no person - 0.87210965
+outdoors - 0.85534185
+animal - 0.8448763
+sun - 0.82956684
+travel - 0.80965495
+blower - 0.80741036
+desktop - 0.8032803
+*************output\mainframes\436_0.0072585147962032385.jpg***********
+ocean - 0.990232
+sea - 0.9897166
+underwater - 0.9860736
+water - 0.9847607
+nature - 0.96500736
+marine - 0.9454674
+aquatic - 0.90918076
+wildlife - 0.9024466
+fish - 0.9015852
+swimming - 0.899268
+aquarium - 0.8858174
+desktop - 0.87050974
+whale - 0.86652565
+diving - 0.8592708
+outdoors - 0.83494663
+no person - 0.831741
+sun - 0.8213807
+seascape - 0.8188584
+animal - 0.81057477
+dark - 0.80719495
+*************output\mainframes\440_0.009491903964265773.jpg***********
+sea - 0.9905237
+water - 0.99023265
+ocean - 0.9880499
+underwater - 0.9801235
+nature - 0.9750794
+marine - 0.9386963
+whale - 0.93711305
+aquatic - 0.92146343
+swimming - 0.8941964
+wildlife - 0.8920238
+aquarium - 0.87989235
+desktop - 0.85446906
+outdoors - 0.8538783
+sun - 0.8442247
+diving - 0.8423917
+blower - 0.8406558
+Pacific - 0.8397784
+seascape - 0.8313301
+no person - 0.82955694
+landscape - 0.7898303
+*************output\mainframes\447_0.00893355667225014.jpg***********
+water - 0.97874033
+desktop - 0.97528625
+illustration - 0.9603906
+nature - 0.92947865
+silhouette - 0.91936684
+outdoors - 0.9113492
+no person - 0.90444535
+travel - 0.885658
+ocean - 0.8821137
+sea - 0.8806846
+painting - 0.87124145
+reflection - 0.86843216
+landscape - 0.8639406
+tree - 0.86336243
+art - 0.86220354
+graphic - 0.85958076
+lake - 0.85899496
+sky - 0.8579783
+summer - 0.84758127
+river - 0.8395763
+*************output\mainframes\477_0.0027917364600781687.jpg***********
+flight - 0.98931
+sky - 0.9733114
+raptor - 0.96069634
+wing - 0.9563216
+no person - 0.9546061
+bird - 0.9540905
+freedom - 0.9486654
+nature - 0.943761
+eagle - 0.9276176
+wildlife - 0.91185564
+fast - 0.9010347
+outdoors - 0.87298965
+travel - 0.86099124
+airplane - 0.853956
+air - 0.83940387
+predator - 0.81295633
+bald - 0.80258626
+desktop - 0.7962309
+barren - 0.7889894
+flying - 0.788456
+*************output\mainframes\4_0.002233389168062535.jpg***********
+landscape - 0.9487283
+people - 0.9444909
+light - 0.9353986
+rock - 0.91816866
+daylight - 0.9160464
+water - 0.90914667
+desktop - 0.90688974
+adult - 0.8988471
+blur - 0.8920799
+no person - 0.89058316
+abstract - 0.88726705
+mountain - 0.8719691
+travel - 0.8704032
+action - 0.86795294
+outdoors - 0.8647065
+one - 0.85845876
+color - 0.8442638
+art - 0.8405819
+nature - 0.83961284
+smoke - 0.83642507
+*************output\mainframes\507_0.006700167504187605.jpg***********
+nature - 0.9957589
+water - 0.98775226
+wildlife - 0.9851981
+bird - 0.9784682
+animal - 0.96548253
+outdoors - 0.9465145
+desktop - 0.94384253
+lake - 0.9437735
+sea - 0.9345672
+river - 0.9237148
+reflection - 0.9217448
+wild - 0.9185506
+environment - 0.9169847
+fish - 0.8976206
+landscape - 0.87197393
+park - 0.86801666
+pool - 0.8665494
+beak - 0.84491855
+motion - 0.84410733
+swimming - 0.83965296
+*************output\mainframes\567_0.002233389168062535.jpg***********
+animal - 0.9977286
+mammal - 0.99388087
+grass - 0.9780426
+wildlife - 0.9677328
+farm - 0.96061033
+domestic - 0.954648
+field - 0.93721664
+two - 0.9331064
+nature - 0.9264813
+pet - 0.924922
+wild - 0.9235573
+horse - 0.9184739
+action energy - 0.9144715
+scamper - 0.91028583
+hayfield - 0.9101717
+breed - 0.9042739
+livestock - 0.88614106
+fast - 0.88505125
+outdoors - 0.87854683
+pasture - 0.8775608
+*************output\mainframes\5_0.00446677833612507.jpg***********
+desktop - 0.9302357
+no person - 0.92063856
+abstract - 0.8790986
+light - 0.86562335
+blur - 0.8652423
+art - 0.86105883
+nature - 0.8496741
+one - 0.8365141
+color - 0.80321693
+people - 0.8014482
+water - 0.79733324
+image - 0.79033005
+food - 0.7865626
+old - 0.78423184
+wood - 0.78371704
+landscape - 0.7745193
+indoors - 0.77352726
+travel - 0.77097386
+wall - 0.75366306
+outdoors - 0.74957305
+*************output\mainframes\627_0.0027917364600781687.jpg***********
+mammal - 0.99379456
+animal - 0.99140894
+grass - 0.9894016
+hayfield - 0.9866923
+field - 0.98598224
+farm - 0.9855977
+pasture - 0.97558844
+livestock - 0.9557936
+agriculture - 0.95148426
+rural - 0.9485384
+cavalry - 0.9483721
+horse - 0.93973935
+grassland - 0.93902934
+mane - 0.9265044
+equine - 0.91136324
+domestic - 0.9097863
+nature - 0.9033549
+stallion - 0.90073997
+no person - 0.89671195
+mare - 0.89574087
+*************output\mainframes\665_0.0016750418760469012.jpg***********
+water - 0.9968339
+sea - 0.9951359
+ocean - 0.9913893
+nature - 0.97326577
+wave - 0.9582798
+beach - 0.9469371
+outdoors - 0.9428538
+seashore - 0.9347114
+summer - 0.9160255
+reflection - 0.91261804
+travel - 0.91213304
+no person - 0.9098433
+sky - 0.9088708
+surf - 0.89972436
+swimming - 0.88014644
+marine - 0.8662635
+seascape - 0.8658801
+tropical - 0.86548793
+sun - 0.8569882
+splash - 0.85500526
+*************output\mainframes\684_0.009491903964265773.jpg***********
+water - 0.99695003
+no person - 0.9822626
+nature - 0.9722576
+sea - 0.95795405
+ocean - 0.95386624
+outdoors - 0.9525186
+travel - 0.9457507
+sky - 0.9345311
+splash - 0.93261826
+motion - 0.9016893
+wild - 0.89535433
+reflection - 0.890586
+cold - 0.8904705
+river - 0.8884102
+summer - 0.8696485
+vacation - 0.8668467
+beach - 0.86666083
+spray - 0.855103
+sight - 0.84622836
+landscape - 0.84537077
+*************output\mainframes\6_0.007816862088218872.jpg***********
+landscape - 0.9458821
+desktop - 0.9408537
+abstract - 0.93394923
+no person - 0.9243306
+light - 0.91264284
+blur - 0.9076032
+art - 0.8877572
+wood - 0.8734379
+nature - 0.87308097
+daylight - 0.87107605
+rock - 0.87070143
+panoramic - 0.86041087
+water - 0.858813
+tree - 0.8570986
+color - 0.8562442
+outdoors - 0.85466945
+old - 0.84110034
+travel - 0.84069705
+paper - 0.83738595
+weather - 0.8321983
+*************output\mainframes\718_0.0016750418760469012.jpg***********
+underwater - 0.9998523
+fish - 0.9943241
+reef - 0.99306583
+sea - 0.99236536
+water - 0.99096566
+ocean - 0.99089086
+coral - 0.9875809
+submarine - 0.9854108
+scuba - 0.97944325
+swimming - 0.9794415
+diving - 0.97502255
+exploration - 0.9745045
+diver - 0.96722174
+people - 0.9537088
+snorkeling - 0.9495612
+marine - 0.9465267
+water sports - 0.94611347
+tropical - 0.94160455
+travel - 0.9405001
+deep - 0.93356353
+*************output\mainframes\747_0.0027917364600781687.jpg***********
+water - 0.9938036
+ocean - 0.99000055
+sea - 0.9817158
+nature - 0.9778463
+desktop - 0.9752096
+underwater - 0.9633146
+beautiful - 0.9367343
+color - 0.9292593
+travel - 0.9199642
+clear - 0.91444933
+marine - 0.91200197
+Pacific - 0.8985418
+no person - 0.8772928
+environment - 0.87678385
+wave - 0.87645924
+motion - 0.87033737
+tropical - 0.8689753
+splash - 0.8689682
+turquoise - 0.86893845
+sight - 0.86539936
+*************output\mainframes\777_0.002233389168062535.jpg***********
+water - 0.98864615
+sea - 0.9841161
+ocean - 0.9822642
+nature - 0.93977344
+travel - 0.92171717
+wave - 0.9211306
+no person - 0.89701307
+motion - 0.89162433
+seashore - 0.8872985
+Pacific - 0.872263
+outdoors - 0.8647938
+landscape - 0.8527838
+spray - 0.8514479
+island - 0.82089406
+surf - 0.812713
+scenic - 0.81044596
+reflection - 0.8084872
+beautiful - 0.807788
+sight - 0.803826
+sky - 0.79004693
+*************output\mainframes\7_0.009491903964265773.jpg***********
+smoke - 0.9568742
+desktop - 0.92095894
+landscape - 0.9145906
+nature - 0.90782297
+food - 0.9007164
+no person - 0.8872446
+environment - 0.85903645
+light - 0.8423304
+water - 0.8366508
+abstract - 0.8317205
+wood - 0.8170991
+panoramic - 0.8080928
+outdoors - 0.80553126
+blur - 0.8005629
+rock - 0.7958634
+tree - 0.7795893
+hot - 0.7717177
+weather - 0.75697994
+mountain - 0.75180984
+color - 0.751313
+*************output\mainframes\807_0.006141820212171971.jpg***********
+leaf - 0.99804235
+flora - 0.99676895
+nature - 0.9917307
+garden - 0.98931456
+flower - 0.9872294
+closeup - 0.98545194
+environment - 0.9683182
+summer - 0.9602275
+desktop - 0.9600494
+beautiful - 0.94630283
+color - 0.9429214
+park - 0.9421001
+floral - 0.9404074
+close - 0.9342867
+outdoors - 0.93258476
+botanical - 0.9297134
+season - 0.92757595
+blooming - 0.92522585
+husk - 0.9225683
+growth - 0.9105525
+*************output\mainframes\897_0.0016750418760469012.jpg***********
+landscape - 0.9804279
+water - 0.9710119
+nature - 0.96098536
+outdoors - 0.9601663
+light - 0.95008814
+travel - 0.94770896
+sky - 0.93937325
+abstract - 0.92529196
+no person - 0.9245789
+weather - 0.9214925
+winter - 0.91615754
+daylight - 0.9147041
+insubstantial - 0.9024487
+waterfall - 0.9015739
+environment - 0.89798474
+motion - 0.88413614
+ice - 0.88245875
+radiography - 0.8761274
+mountain - 0.8695848
+river - 0.86008966
+*************output\mainframes\898_0.0033500837520938024.jpg***********
+landscape - 0.97762835
+sky - 0.95481133
+outdoors - 0.9534476
+water - 0.95263666
+nature - 0.95005834
+light - 0.9405978
+travel - 0.9387598
+waterfall - 0.9244683
+no person - 0.91988695
+daylight - 0.90955913
+weather - 0.90618795
+motion - 0.89972425
+cloud - 0.87903416
+abstract - 0.87405044
+mountain - 0.8719479
+winter - 0.8719318
+environment - 0.8690908
+blur - 0.86752677
+insubstantial - 0.86150444
+storm - 0.85148525
+*************output\mainframes\899_0.0033500837520938024.jpg***********
+landscape - 0.9770967
+sky - 0.974072
+nature - 0.9665201
+light - 0.94543964
+weather - 0.9416534
+outdoors - 0.94159055
+cloud - 0.9285573
+storm - 0.92320067
+travel - 0.91200554
+no person - 0.91175723
+water - 0.90007114
+abstract - 0.8937299
+blur - 0.89294815
+rain - 0.88285893
+insubstantial - 0.8796786
+mountain - 0.87028265
+color - 0.86229646
+fog - 0.8593116
+winter - 0.8566034
+bright - 0.8560773
+*************output\mainframes\900_0.003908431044109436.jpg***********
+blur - 0.9833386
+abstract - 0.9508159
+water - 0.9469034
+landscape - 0.9444542
+light - 0.9421697
+radiography - 0.9389634
+people - 0.9364581
+travel - 0.9275975
+diagnosis - 0.9263253
+winter - 0.9242614
+sky - 0.9238894
+insubstantial - 0.91815305
+nature - 0.91493833
+outdoors - 0.9147309
+storm - 0.9065486
+motion - 0.8964503
+rain - 0.88721
+weather - 0.8851961
+reflection - 0.8838242
+scrutiny - 0.8806506
+*************output\mainframes\901_0.005025125628140704.jpg***********
+blur - 0.99020445
+people - 0.9637372
+light - 0.944641
+landscape - 0.9432189
+abstract - 0.93825483
+storm - 0.9367595
+sky - 0.9360705
+radiography - 0.9236959
+motion - 0.9130734
+scrutiny - 0.91296273
+insubstantial - 0.90964603
+reflection - 0.9051844
+portrait - 0.9035086
+water - 0.898256
+rain - 0.8864224
+travel - 0.8785907
+weather - 0.8784756
+nature - 0.8784689
+winter - 0.87659466
+diagnosis - 0.8748236
+*************output\mainframes\902_0.003908431044109436.jpg***********
+blur - 0.99414396
+people - 0.94477797
+winter - 0.9418056
+storm - 0.93842053
+abstract - 0.93014085
+landscape - 0.9298288
+motion - 0.92861104
+snow - 0.9169618
+light - 0.9145631
+travel - 0.90391564
+weather - 0.89705694
+portrait - 0.89519167
+sky - 0.8785844
+daylight - 0.87410605
+water - 0.87146145
+rain - 0.86990285
+insubstantial - 0.8604455
+outdoors - 0.857111
+reflection - 0.83994794
+ice - 0.8341347
+*************output\mainframes\903_0.005025125628140704.jpg***********
+blur - 0.9913547
+landscape - 0.96164626
+abstract - 0.9558001
+light - 0.9392045
+motion - 0.9330743
+radiography - 0.93152535
+winter - 0.92944884
+scrutiny - 0.9261708
+travel - 0.9218757
+water - 0.91902786
+people - 0.9132109
+snow - 0.89790833
+diagnosis - 0.89662945
+sky - 0.8949729
+weather - 0.8897912
+reflection - 0.88612807
+storm - 0.8828108
+ice - 0.88209313
+daylight - 0.88147974
+nature - 0.8705646
+*************output\mainframes\904_0.00893355667225014.jpg***********
+blur - 0.9859563
+landscape - 0.9752269
+light - 0.9663198
+winter - 0.9638129
+snow - 0.9635923
+water - 0.955198
+abstract - 0.9512073
+nature - 0.94309247
+ice - 0.93413866
+sky - 0.9231262
+outdoors - 0.91681457
+travel - 0.9163037
+motion - 0.91526335
+people - 0.90920585
+reflection - 0.9020527
+daylight - 0.8956633
+insubstantial - 0.89486754
+weather - 0.8892097
+portrait - 0.8762526
+no person - 0.86478806
+*************output\mainframes\927_0.0027917364600781687.jpg***********
+landscape - 0.9837916
+sky - 0.9714111
+sea - 0.9707879
+travel - 0.97035563
+water - 0.96654516
+snow - 0.95055443
+ocean - 0.946069
+mountain - 0.94497
+ice - 0.9414687
+outdoors - 0.9298316
+winter - 0.9191896
+lake - 0.9178503
+cold - 0.91742754
+cloud - 0.9166093
+frosty - 0.90681195
+bird - 0.9003328
+nature - 0.8998878
+daylight - 0.87719953
+airplane - 0.8738603
+fog - 0.8690932
+*************output\mainframes\954_5.583472920156337E-4.jpg***********
+nature - 0.9781765
+abstract - 0.95548326
+desktop - 0.95002973
+water - 0.9399395
+blur - 0.93524647
+landscape - 0.93044186
+art - 0.92333597
+color - 0.9209974
+beautiful - 0.9115231
+sun - 0.90961766
+underwater - 0.9056153
+light - 0.9053408
+sea - 0.90015996
+portrait - 0.9000401
+outdoors - 0.8788619
+summer - 0.87743473
+fair weather - 0.87677467
+people - 0.87273645
+texture - 0.8654649
+no person - 0.86537707
+*************output\mainframes\955_0.003908431044109436.jpg***********
+nature - 0.9608717
+abstract - 0.95780885
+desktop - 0.951841
+art - 0.9516695
+color - 0.90714705
+water - 0.90115225
+texture - 0.8802098
+people - 0.87549525
+sea - 0.86850464
+vintage - 0.855631
+outdoors - 0.85024667
+light - 0.84929705
+pastel - 0.8439293
+artistic - 0.83960474
+beautiful - 0.83496416
+underwater - 0.83250153
+background - 0.8288039
+landscape - 0.8282772
+portrait - 0.81521064
+baby - 0.81218874
+*************output\mainframes\956_0.005025125628140704.jpg***********
+nature - 0.9832723
+water - 0.9781022
+desktop - 0.97704434
+abstract - 0.9677245
+underwater - 0.94857657
+color - 0.9367715
+sea - 0.92809415
+blur - 0.9258898
+beautiful - 0.91503906
+ocean - 0.90628195
+light - 0.90212137
+background - 0.8910815
+art - 0.8856989
+landscape - 0.8838047
+travel - 0.87209475
+texture - 0.86693627
+medicine - 0.8612511
+outdoors - 0.8600321
+vintage - 0.8530438
+sun - 0.83015275
+*************output\mainframes\957_0.005025125628140704.jpg***********
+abstract - 0.96680677
+landscape - 0.95134497
+water - 0.94656533
+art - 0.9445432
+color - 0.9439295
+texture - 0.93942165
+blur - 0.931583
+desktop - 0.9277098
+light - 0.921896
+background - 0.91035104
+nature - 0.89734113
+vintage - 0.8826917
+sea - 0.8807628
+no person - 0.87568426
+food - 0.87504673
+pattern - 0.8667705
+people - 0.8645803
+daylight - 0.86084837
+ocean - 0.8590659
+travel - 0.84418285
+*************output\mainframes\958_0.007816862088218872.jpg***********
+portrait - 0.95267797
+blur - 0.94738394
+people - 0.94679344
+abstract - 0.9456074
+baby - 0.9312822
+water - 0.9290643
+landscape - 0.92172205
+light - 0.91122204
+side view - 0.89238364
+desktop - 0.89207625
+travel - 0.8857214
+color - 0.8795006
+nature - 0.8775434
+one - 0.86133105
+sea - 0.8598583
+background - 0.85174835
+art - 0.8505019
+girl - 0.8500752
+vintage - 0.8449712
+outdoors - 0.84350526
+*************output\mainframes\987_0.0016750418760469012.jpg***********
+underwater - 0.99306995
+water - 0.9922477
+ocean - 0.9889945
+sea - 0.9878995
+nature - 0.9857464
+fish - 0.9823612
+swimming - 0.97425336
+marine - 0.97045904
+no person - 0.97030777
+wildlife - 0.96936417
+aquatic - 0.96556693
+tropical - 0.9355273
+animal - 0.9338379
+outdoors - 0.9239617
+sun - 0.9234645
+fair weather - 0.9157147
+diving - 0.9083358
+reef - 0.88532054
+travel - 0.8756075
+wild - 0.86985207
+*************output\mainframes\988_0.006700167504187605.jpg***********
+water - 0.99115217
+underwater - 0.988927
+ocean - 0.9837184
+sea - 0.98214984
+fish - 0.9728015
+nature - 0.97017527
+no person - 0.95969987
+swimming - 0.95396477
+aquatic - 0.94938993
+marine - 0.9492561
+wildlife - 0.9434859
+tropical - 0.9412927
+animal - 0.9193941
+desktop - 0.9005224
+travel - 0.8958577
+reef - 0.87538874
+outdoors - 0.8699862
+wild - 0.8578486
+submarine - 0.8537413
+fair weather - 0.8531006
+*************output\mainframes\989_0.006700167504187605.jpg***********
+water - 0.99034995
+underwater - 0.9825918
+ocean - 0.98041123
+sea - 0.976725
+nature - 0.9646094
+fish - 0.95787096
+aquatic - 0.95660186
+swimming - 0.95631564
+no person - 0.9516785
+marine - 0.94953763
+tropical - 0.9379883
+wildlife - 0.9287081
+travel - 0.9020318
+animal - 0.9002929
+desktop - 0.8956479
+outdoors - 0.86051667
+reef - 0.8473018
+fair weather - 0.83398867
+sun - 0.8323355
+submarine - 0.8294373
+*************output\mainframes\990_0.005583472920156337.jpg***********
+underwater - 0.9905089
+water - 0.9849094
+fish - 0.9807376
+ocean - 0.97886217
+sea - 0.97850287
+nature - 0.97050595
+no person - 0.96214515
+wildlife - 0.9618683
+marine - 0.96088994
+swimming - 0.9593694
+aquatic - 0.94926953
+animal - 0.9209257
+tropical - 0.9158237
+outdoors - 0.89028585
+reef - 0.88648665
+travel - 0.8831847
+submarine - 0.8676192
+diving - 0.8564158
+fair weather - 0.85517347
+shark - 0.8481617
+*************output\mainframes\991_0.005583472920156337.jpg***********
+underwater - 0.9884634
+ocean - 0.988098
+sea - 0.98656714
+water - 0.9858681
+nature - 0.979694
+fish - 0.9761722
+marine - 0.96213305
+no person - 0.9548007
+aquatic - 0.9419719
+swimming - 0.9415503
+wildlife - 0.9387473
+tropical - 0.9167528
+animal - 0.9056196
+desktop - 0.90363765
+sun - 0.9020039
+reef - 0.89339185
+fair weather - 0.8895687
+outdoors - 0.8844452
+seascape - 0.8756701
+travel - 0.86266434
+*************output\mainframes\992_0.0033500837520938024.jpg***********
+ocean - 0.9939013
+sea - 0.99305487
+underwater - 0.992761
+fish - 0.99113595
+water - 0.9910022
+nature - 0.97891796
+marine - 0.975024
+aquatic - 0.9571218
+swimming - 0.9453778
+animal - 0.9389553
+reef - 0.9388248
+wildlife - 0.93702185
+tropical - 0.9318771
+desktop - 0.92585593
+saltwater - 0.89997697
+seascape - 0.89527893
+submarine - 0.8901059
+aquarium - 0.88813967
+shoal - 0.88409346
+deep - 0.8809796
+*************output\mainframes\993_0.0033500837520938024.jpg***********
+underwater - 0.9899867
+ocean - 0.98941934
+sea - 0.989121
+water - 0.9869837
+fish - 0.9823485
+nature - 0.9793793
+marine - 0.96075237
+desktop - 0.9394939
+aquatic - 0.93439496
+reef - 0.9307214
+swimming - 0.9289388
+fair weather - 0.9111961
+tropical - 0.90154207
+sun - 0.9004463
+no person - 0.89899313
+wildlife - 0.8953307
+animal - 0.8911856
+color - 0.88898766
+outdoors - 0.88352096
+diving - 0.88071203
+*************output\mainframes\994_0.00893355667225014.jpg***********
+ocean - 0.9861382
+water - 0.9850713
+underwater - 0.9825281
+sea - 0.98243505
+nature - 0.97795135
+fish - 0.9655348
+no person - 0.9541414
+desktop - 0.94591916
+marine - 0.94126016
+swimming - 0.92374754
+tropical - 0.9161844
+color - 0.8991896
+sun - 0.8972883
+fair weather - 0.89223206
+outdoors - 0.888458
+wildlife - 0.87586355
+aquatic - 0.8758616
+reef - 0.8708883
+animal - 0.86053944
+light - 0.839364
+*************output\mainframes\995_0.003908431044109436.jpg***********
+underwater - 0.9933529
+water - 0.99010164
+ocean - 0.9871646
+sea - 0.98546433
+fish - 0.98399526
+nature - 0.97411066
+marine - 0.97207415
+wildlife - 0.9686254
+swimming - 0.964796
+aquatic - 0.95458245
+no person - 0.94513565
+animal - 0.94050395
+tropical - 0.9326723
+reef - 0.91730785
+coral - 0.8937752
+diving - 0.88396555
+desktop - 0.8824052
+turquoise - 0.8621576
+travel - 0.85847527
+submarine - 0.85794806
+*************output\mainframes\996_0.003908431044109436.jpg***********
+underwater - 0.9947329
+water - 0.98794353
+fish - 0.9827987
+ocean - 0.982165
+sea - 0.97705185
+swimming - 0.97500956
+nature - 0.97320926
+wildlife - 0.9725852
+no person - 0.965446
+marine - 0.9602692
+aquatic - 0.9421276
+tropical - 0.9171617
+animal - 0.9132914
+travel - 0.87795424
+reef - 0.86906177
+diving - 0.8512461
+submarine - 0.8438095
+shark - 0.8395089
+aquarium - 0.83876014
+exploration - 0.8365872
+*************output\mainframes\997_0.002233389168062535.jpg***********
+water - 0.99029064
+underwater - 0.9890628
+ocean - 0.9870792
+sea - 0.9844399
+marine - 0.98256683
+wildlife - 0.97883093
+nature - 0.97425187
+fish - 0.97209704
+aquatic - 0.9698679
+swimming - 0.96757114
+animal - 0.96422267
+no person - 0.90015864
+desktop - 0.89734864
+aquarium - 0.88230133
+tropical - 0.88143075
+wild - 0.8774781
+outdoors - 0.85262156
+submarine - 0.85025704
+shoal - 0.8401046
+travel - 0.8395506
+*************output\mainframes\998_0.0027917364600781687.jpg***********
+ocean - 0.98657656
+water - 0.9855288
+sea - 0.9828857
+nature - 0.98010254
+marine - 0.980092
+underwater - 0.97976494
+wildlife - 0.9792391
+fish - 0.9675763
+aquatic - 0.9616535
+animal - 0.9607421
+swimming - 0.9604525
+no person - 0.94049734
+tropical - 0.9015367
+desktop - 0.87967694
+outdoors - 0.8629452
+wild - 0.8343156
+travel - 0.82923806
+diving - 0.8164532
+fair weather - 0.81402093
+aquarium - 0.8068687
+*************output\mainframes\999_0.0033500837520938024.jpg***********
+water - 0.9870404
+ocean - 0.98418295
+sea - 0.9815254
+underwater - 0.9775293
+nature - 0.9757539
+fish - 0.96962786
+wildlife - 0.967932
+marine - 0.95757425
+no person - 0.9548448
+animal - 0.93077505
+swimming - 0.92872703
+aquatic - 0.9267839
+outdoors - 0.8987099
+travel - 0.8815813
+fair weather - 0.856181
+desktop - 0.8530704
+tropical - 0.8478707
+sun - 0.8283659
+reef - 0.82488275
+diving - 0.80822384
+
+Process finished with exit code 0
