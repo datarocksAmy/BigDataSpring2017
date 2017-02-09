@@ -24,7 +24,7 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-// Getting all the frames from the video
+// Connect the Clarifai API server by using your own API key and access code to get the token.
 public class ImageAnnotation {
     public static void main(String[] args) throws IOException {
         final ClarifaiClient client = new ClarifaiBuilder("eTJs-4TeKoI7oj9KxDvAtXIAcMlq_dGA5q9O-Leo", "Z8AvX0xfORRPeDT6-rzTIeeQP06MBt39bOG-26Jz")
@@ -35,7 +35,7 @@ public class ImageAnnotation {
         File file = new File("output/mainframes");
         File[] files = file.listFiles();
 
-        // Start going through the whole image and do the prediction of what's inside this image
+        // Start doing detail scanned on the image and predict what possible information contains in this image
         for (int i=0; i<files.length;i++){
             ClarifaiResponse response = client.getDefaultModels().generalModel().predict()
                     .withInputs(
@@ -47,6 +47,7 @@ public class ImageAnnotation {
             int x = image.getWidth();
             int y = image.getHeight();
 
+            // Print out possible contents in each image in the Console
             System.out.println("*************" + files[i] + "***********");
             List<Concept> data = predictions.get(0).data();
             for (int j = 0; j < data.size(); j++) {

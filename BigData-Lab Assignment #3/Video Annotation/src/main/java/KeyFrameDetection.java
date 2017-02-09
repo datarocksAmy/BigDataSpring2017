@@ -89,6 +89,8 @@ public class KeyFrameDetection {
             mainPoints.add(size);
             System.out.println(size);
         }
+
+        // Collect all the mainpoints together and display on the major one.
         Double max = Collections.max(mainPoints);
         for(int i=0; i<mainPoints.size(); i++){
             if(((mainPoints.get(i))/max < 0.01) || i==0){
