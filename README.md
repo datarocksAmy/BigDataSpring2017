@@ -6,14 +6,17 @@ https://github.com/datarocksAmy/BigDataSpring2017/blob/master/BigData-Lab%20Assi
 
 ## > Lab Assignment #2 - Text Data 
 Spark Scala Transformations + Actions  
-https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%232
+WIKI: https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%232
+Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%232
 
-## > Lab Assignment #3 - Machine Learning Tasks & Video Annotation 
+## > Lab Assignment #3 - Machine Learning Tasks & Video Annotation
+WIKI: https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%233
+
 Linear Regression Model using Spark for chimpanzee's daily movement/activities
-https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%233/Spark%20Programming%20Lab%20%233%20-%20Q1%20Linear%20Regression
+Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%233/Spark%20Programming%20Lab%20%233%20-%20Q1%20Linear%20Regression
 
 K-Mean Clustering using Spark for chimpanzee's daily movement/activities
-https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%233/Spark%20Programming%20%20Lab%20%233%20-%20Q2%20K-Mean%20Clustering
+Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%233/Spark%20Programming%20%20Lab%20%233%20-%20Q2%20K-Mean%20Clustering
 
 Video Annotation using OpenImg Library from the Clarifar API.
-https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%233/Video%20Annotation
+Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%233/Video%20Annotation
