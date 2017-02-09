@@ -7,6 +7,7 @@ https://github.com/datarocksAmy/BigDataSpring2017/blob/master/BigData-Lab%20Assi
 ## > Lab Assignment #2 - Text Data 
 Spark Scala Transformations + Actions  
 WIKI: https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%232
+***
 Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%232
 
 ## > Lab Assignment #3 - Machine Learning Tasks & Video Annotation
