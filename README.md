@@ -20,3 +20,12 @@ https://github.com/datarocksAmy/BigDataSpring2017/blob/master/BigData-Lab%20Assi
 
 >Q3. Video Annotation using OpenImg Library from the Clarifar API.
 * Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%233/Video%20Annotation
+
+## > Lab Assignment #4 - Image Classification Problem using Decision Tree Algorithm & Google Conversion API
+* WIKI:
+
+>Q1. Machine Learning Task for Image Classification ( Decision Tree Algorithm )
+* Source Code:
+
+>Q2. Google Conversion API ( Conversation with Lab 3 Video Annotation )
+* Source Code:
