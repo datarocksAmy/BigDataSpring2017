@@ -22,6 +22,6 @@ https://github.com/datarocksAmy/BigDataSpring2017/blob/master/BigData-Lab%20Assi
 * Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%233/Video%20Annotation
 
 ## > Lab Assignment #4 - Image Classification Problem using Decision Tree Algorithm
-* WIKI: https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%234
+> * WIKI: https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%234
 
-* Source Code: https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%234
+> * Source Code: https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%234
