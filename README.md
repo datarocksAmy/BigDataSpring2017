@@ -25,3 +25,15 @@ https://github.com/datarocksAmy/BigDataSpring2017/blob/master/BigData-Lab%20Assi
 > * WIKI: https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%234
 
 > * Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%234
+
+## > Lab Assignment #5 - Machine Learning Tasks & Spark API & Google Conversation API
+* WIKI: 
+
+>Q1. Image Classification - Accuracy & Confusion Matrix
+* Source Code: 
+
+>Q2. Client Application using Spark API
+* Source Code: 
+
+>Q3. Google Conversion Actions API
+* Source Code: 
