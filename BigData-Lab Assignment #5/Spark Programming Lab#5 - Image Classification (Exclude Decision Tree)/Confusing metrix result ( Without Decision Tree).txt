@@ -1,0 +1,30 @@
+(2.0,3)
+(3.0,3)
+(0.0,3)
+(0.0,3)
+(3.0,3)
+(3.0,2)
+(0.0,2)
+(2.0,2)
+(2.0,2)
+(3.0,2)
+(3.0,1)
+(2.0,1)
+(0.0,1)
+(2.0,1)
+(1.0,1)
+(0.0,0)
+(2.0,0)
+(0.0,0)
+(2.0,0)
+ACCURACY: 0.3684210526315789
+ |=================== Confusion matrix ==========================
+2.0  0.0  2.0  0.0  
+1.0  1.0  2.0  1.0  
+1.0  0.0  2.0  2.0  
+2.0  0.0  1.0  2.0  
+0.3684210526315789
+17/02/22 19:13:20 INFO RemoteActorRefProvider$RemotingTerminator: Shutting down remote daemon.
+17/02/22 19:13:20 INFO RemoteActorRefProvider$RemotingTerminator: Remote daemon shut down; proceeding with flushing remote transports.
+
+Process finished with exit code 0
