@@ -33,7 +33,7 @@ https://github.com/datarocksAmy/BigDataSpring2017/blob/master/BigData-Lab%20Assi
 * Source Code: 
 
 >Q2. Client Application using Spark API
-* Source Code: 
+* Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%235/Client%20Application%20using%20Spark%20API
 
 >Q3. Google Conversion Actions API
 * Source Code: 
