@@ -30,7 +30,7 @@ https://github.com/datarocksAmy/BigDataSpring2017/blob/master/BigData-Lab%20Assi
 > * WIKI: https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%235
 
 >Q1. Image Classification - Accuracy & Confusion Matrix
-* Source Code: 
+* Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%235/Spark%20Programming%20Lab%235%20-%20Image%20Classification%20(Exclude%20Decision%20Tree)
 
 >Q2. Client Application using Spark API
 * Source Code: https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%235/Client%20Application%20using%20Spark%20API
