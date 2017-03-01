@@ -44,7 +44,7 @@
 
 
 ## > Lab Assignment #6 - Image Fuzzy Classification + Object Detection & Android Application using Spark API + Clarifei API
->* <a href="">Lab #6 WIKI</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%236">Lab #6 WIKI</a>
 
 >Q1. Image Classification - Fuzzy Classification & Obj Detection with Decision Tree + Random Forest --> Accuracy & Confusion Matrix
 >* <a href=""> Lab #6-Q1 Source Code</a>
