@@ -50,4 +50,4 @@
 >* <a href=""> Lab #6-Q1 Source Code</a>
 
 >Q2. Android Application (Spark API + Clarifei API)
->* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%235/Client%20Application%20using%20Spark%20API"> Lab #6-Q2 Source Code</a>
+>* <a href=""> Lab #6-Q2 Source Code</a>
