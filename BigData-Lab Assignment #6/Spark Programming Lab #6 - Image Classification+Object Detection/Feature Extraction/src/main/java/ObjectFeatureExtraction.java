@@ -21,7 +21,7 @@ public class ObjectFeatureExtraction {
         String outputFolder = "output/";
         String[] IMAGE_CATEGORIES = {"Sea", "PolarBear", "Fish", "Peacock", "Chameleon"};
 
-        int input_class = 4; // Switch the order in the previous list
+        int input_class = 4; // Change to the index from IMAGE_CATEGORIES of the category you want to extract the feature.
         MBFImage mbfImage = ImageUtilities.readMBF(new File(inputFolder + inputImage));
         DoGSIFTEngine doGSIFTEngine = new DoGSIFTEngine();
         LocalFeatureList<Keypoint> features = doGSIFTEngine.findFeatures(mbfImage.flatten());

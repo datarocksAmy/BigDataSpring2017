@@ -93,7 +93,7 @@ class ObjectMainDetection {
             final MBFImageRenderer renderer = mbfImage.createRenderer();
             renderer.drawPoints(kpl, RGBColour.MAGENTA, 5);
 
-            // Compare each and every keyframes.
+            // Compare each and every keyframe for fist image.
             if (this.matcher1.findMatches(kpl)
                     && ((MatrixTransformProvider) this.matcher1.getModel()).getTransform().cond() < 1e6 ) {
                 try {
@@ -132,6 +132,7 @@ class ObjectMainDetection {
                 }
 
             }
+            // Compare each and every keyframe for second image.
             if (this.matcher2.findMatches(kpl)
                     && ((MatrixTransformProvider) this.matcher2.getModel()).getTransform().cond() < 1e6 ) {
                 try {
@@ -169,6 +170,7 @@ class ObjectMainDetection {
                 }
 
             }
+            // Compare each and every keyframe for third image.
             if (this.matcher3.findMatches(kpl)
                     && ((MatrixTransformProvider) this.matcher3.getModel()).getTransform().cond() < 1e6) {
                 try {
@@ -207,6 +209,7 @@ class ObjectMainDetection {
                 }
 
             }
+            // Compare each and every keyframe for fourth image.
             if (this.matcher4.findMatches(kpl)
                     && ((MatrixTransformProvider) this.matcher4.getModel()).getTransform().cond() < 1e6) {
                 try {
@@ -245,6 +248,7 @@ class ObjectMainDetection {
                 }
 
             }
+            // Compare each and every keyframe for fifth image.
             if (this.matcher5.findMatches(kpl)
                     && ((MatrixTransformProvider) this.matcher5.getModel()).getTransform().cond() < 1e6) {
                 try {
@@ -286,13 +290,14 @@ class ObjectMainDetection {
             DisplayUtilities.displayName(mbfImage, "Image");
         }
         bw.close();
-    } // Repeat three times because we have 3 different images
+    } // Repeat five times because we have five categories of images.
 
     public void LoadReferenceObject() {
 
         final DoGSIFTEngine engine = new DoGSIFTEngine();
         engine.getOptions().setDoubleInitialImage(true);
 
+        // Train each image category
         try {
             modelImage1 = ImageUtilities.readMBF(new File("data/fish1.jpg"));
             modelImage2 = ImageUtilities.readMBF(new File("data/polarbear1.jpg"));
@@ -303,6 +308,8 @@ class ObjectMainDetection {
             e.printStackTrace();
         }
 
+
+        // Set up models for each category.
         FImage modelF1 = Transforms.calculateIntensityNTSC(modelImage1);
         this.matcher1.setModelFeatures(engine.findFeatures(modelF1));
 
