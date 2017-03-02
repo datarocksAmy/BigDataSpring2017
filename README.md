@@ -47,7 +47,7 @@
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%236">Lab #6 WIKI</a>
 
 >Q1. Image Classification - Fuzzy Classification & Obj Detection with Decision Tree + Random Forest --> Accuracy & Confusion Matrix
->* <a href=""> Lab #6-Q1 Source Code</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%236/Spark%20Programming%20Lab%236%20-%20Image%20Classification%2BObject%20Detection"> Lab #6-Q1 Source Code</a>
 
 >Q2. Android Application (Spark API + Clarifei API)
 >* <a href=""> Lab #6-Q2 Source Code</a>
