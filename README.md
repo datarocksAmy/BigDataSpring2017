@@ -50,4 +50,4 @@
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%236/Spark%20Programming%20Lab%236%20-%20Image%20Classification%2BObject%20Detection"> Lab #6-Q1 Source Code</a>
 
 >Q2. Android Application (Spark API + Clarifei API)
->* <a href=""> Lab #6-Q2 Source Code</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%236/Android%20Application"> Lab #6-Q2 Source Code</a>
