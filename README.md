@@ -51,3 +51,10 @@
 
 >Q2. Android Application (Spark API + Clarifei API)
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%236/Android%20Application"> Lab #6-Q2 Source Code</a>
+
+## > Lab Assignment #7 - TensorFlow Progamming using Python
+>* <a href="">Lab #7 WIKI</a>
+
+>Q1. Tensorflow Programming - Linear Regression + Training Cost Plot + Cross Validation
+>* <a href=""> Lab #7-Q1 Source Code</a>
+
