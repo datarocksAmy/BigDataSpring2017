@@ -55,6 +55,6 @@
 ## > Lab Assignment #7 - TensorFlow Progamming using Python
 >* <a href="">Lab #7 WIKI</a>
 
->Q1. Tensorflow Programming - Linear Regression + Training Cost Plot + Cross Validation
->* <a href=""> Lab #7-Q1 Source Code</a>
+> Tensorflow Programming - Linear Regression + Training Cost Plot
+>* <a href=""> Lab #7 Source Code</a>
 
