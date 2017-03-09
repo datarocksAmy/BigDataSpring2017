@@ -53,8 +53,9 @@
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%236/Android%20Application"> Lab #6-Q2 Source Code</a>
 
 ## > Lab Assignment #7 - TensorFlow Progamming using Python
->* <a href="">Lab #7 WIKI</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%237">Lab #7 WIKI</a>
 
 > Tensorflow Programming - Linear Regression + Training Cost Plot
->* <a href=""> Lab #7 Source Code</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%237/Source"> Lab #7 Source Code</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%237/Documentation"> Lab #7 Documentation</a>
 
