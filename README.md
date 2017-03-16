@@ -60,12 +60,11 @@
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%237/Documentation"> Lab #7 Documentation</a>
 
 ## > Lab Assignment #8 - TensorFlow + Google Cardboard
->* <a href="">Lab #8 WIKI</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%238">Lab #8 WIKI</a>
 
 > Q1. Tensorflow Programming - Softmax + Gradient Descent
->* <a href=""> Lab #8-Q1 Source Code</a>
->* <a href=""> Lab #8-Q1 Documentation</a>
+>* <a href="https://github.com/datarocksAmy/MontePython/tree/master/BigData-Lab%20Assignment%20%238/Tensorflow/Source"> Lab #8-Q1 Source Code</a>
+>* <a href="https://github.com/datarocksAmy/MontePython/tree/master/BigData-Lab%20Assignment%20%238/Tensorflow/Documentation"> Lab #8-Q1 Documentation</a>
 
 > Q2. Google CardBoard - Softmax + Gradient Descent
->* <a href=""> Lab #8-Q2 Source Code</a>
->* <a href=""> Lab #8-Q2 Documentation</a>
+>* <a href="https://github.com/datarocksAmy/MontePython/tree/master/BigData-Lab%20Assignment%20%238/Google%20CardBoard/Source"> Lab #8-Q2 Source Code</a>
