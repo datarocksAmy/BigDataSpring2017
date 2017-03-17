@@ -1,0 +1,1 @@
+include ':sdk-common-1.10.0', ':sdk-videowidget-1.10.0'

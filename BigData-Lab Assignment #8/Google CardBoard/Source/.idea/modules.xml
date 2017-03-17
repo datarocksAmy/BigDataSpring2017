@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Tutorial 6 - Google Cardboard Development.iml" filepath="$PROJECT_DIR$/.idea/modules/Tutorial 6 - Google Cardboard Development.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdk-common-1.10.0/sdk-common-1.10.0.iml" filepath="$PROJECT_DIR$/.idea/modules/sdk-common-1.10.0/sdk-common-1.10.0.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sdk-videowidget-1.10.0/sdk-videowidget-1.10.0.iml" filepath="$PROJECT_DIR$/.idea/modules/sdk-videowidget-1.10.0/sdk-videowidget-1.10.0.iml" />
+    </modules>
+  </component>
+</project>
