@@ -68,3 +68,13 @@
 
 > Q2. Google CardBoard - Softmax + Gradient Descent
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%238/Google%20CardBoard/Source"> Lab #8-Q2 Source Code</a>
+
+## > Lab Assignment #9 - TensorFlow + Visual-Question Answering
+>* <a href="">Lab #9 WIKI</a>
+
+> Q1. Tensorflow Programming - CNN
+>* <a href=""> Lab #9-Q1 Source Code</a>
+>* <a href=""> Lab #9-Q1 Documentation</a>
+
+> Q2. Visual-Question Answering
+>* <a href=""> Lab #9-Q2 Source Code</a>
