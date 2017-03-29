@@ -24,7 +24,7 @@
 
 
 ## > Lab Assignment #4 - Image Classification Problem using Decision Tree Algorithm
->* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2304Lab"> Lab #4 WIKI</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2304"> Lab #4 WIKI</a>
 
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2304"> Lab #4 Source Code</a>
 
