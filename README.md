@@ -1,16 +1,16 @@
 # [ BigDataSpring2017 - Lab Assignments ]
 
-## > Lab Assignment #1
+## > Lab Assignment #01
 ><a href="https://github.com/datarocksAmy/BigDataSpring2017/blob/master/BigData-Lab%20Assignment%20%2301/CS%205542%20Big%20Data%20Analytics%20and%20Apps%20Problem%20Set%201.pdf">Odd Man Out + System Design-Big Data Application</a>
 
 
-## > Lab Assignment #2 - Text Data
+## > Lab Assignment #02 - Text Data
 >Spark Scala Transformations + Actions  
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2302">Lab #2 WIKI</a>
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2302"> Lab #2 Source Code</a>
 
 
-## > Lab Assignment #3 - Machine Learning Tasks & Video Annotation
+## > Lab Assignment #03 - Machine Learning Tasks & Video Annotation
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2303">Lab #3 WIKI</a>
 
 >Q1. Linear Regression Model using Spark for chimpanzee's daily movement/activities
@@ -23,13 +23,13 @@
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2303/Video%20Annotation">Lab #3-Q2 Source Code</a>
 
 
-## > Lab Assignment #4 - Image Classification Problem using Decision Tree Algorithm
+## > Lab Assignment #04 - Image Classification Problem using Decision Tree Algorithm
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2304"> Lab #4 WIKI</a>
 
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2304"> Lab #4 Source Code</a>
 
 
-## > Lab Assignment #5 - Machine Learning Tasks & Spark API & Google Conversation API
+## > Lab Assignment #05 - Machine Learning Tasks & Spark API & Google Conversation API
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2305">Lab #5 WIKI</a>
 
 >Q1. Image Classification - Accuracy & Confusion Matrix
@@ -43,7 +43,7 @@
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2305/Google%20Conversion%20Actions%20API/Documentation">Lab #5-Q3 Documentation</a>
 
 
-## > Lab Assignment #6 - Image Fuzzy Classification + Object Detection & Android Application using Spark API + Clarifei API
+## > Lab Assignment #06 - Image Fuzzy Classification + Object Detection & Android Application using Spark API + Clarifei API
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2306">Lab #6 WIKI</a>
 
 >Q1. Image Classification - Fuzzy Classification & Obj Detection with Decision Tree + Random Forest --> Accuracy & Confusion Matrix
@@ -52,14 +52,14 @@
 >Q2. Android Application (Spark API + Clarifei API)
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2306/Android%20Application"> Lab #6-Q2 Source Code</a>
 
-## > Lab Assignment #7 - TensorFlow Progamming using Python
+## > Lab Assignment #07 - TensorFlow Progamming using Python
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2307">Lab #7 WIKI</a>
 
 > Tensorflow Programming - Linear Regression + Training Cost Plot
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2307/Source"> Lab #7 Source Code</a>
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2307/Documentation"> Lab #7 Documentation</a>
 
-## > Lab Assignment #8 - TensorFlow + Google Cardboard
+## > Lab Assignment #08 - TensorFlow + Google Cardboard
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2308">Lab #8 WIKI</a>
 
 > Q1. Tensorflow Programming - Softmax + Gradient Descent
@@ -69,7 +69,7 @@
 > Q2. Google CardBoard - Softmax + Gradient Descent
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2308/Google%20CardBoard/Source"> Lab #8-Q2 Source Code</a>
 
-## > Lab Assignment #9 - TensorFlow + Visual-Question Answering
+## > Lab Assignment #09 - TensorFlow + Visual-Question Answering
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2309">Lab #9 WIKI</a>
 
 > Q1. Tensorflow Programming - CNN
@@ -78,3 +78,13 @@
 
 > Q2. Visual-Question Answering
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2309/Conversation%20Client"> Lab #9-Q2 Source Code</a>
+
+## > Lab Assignment #10 - Retain Inception Model Final Layer + Web-based Application with Tensorflow API
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/wiki/CS-5542-BigData-Lab-Report-%2310">Lab #10 WIKI</a>
+
+> Q1. Tensorflow Programming - Retain Inception Model Final Layer
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2310/Tensorflow/Source"> Lab #10-Q1 Source Code</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2310/Tensorflow/Documentation"> Lab #10-Q1 Documentation</a>
+
+> Q2. Aeb-based Application with Tensorflow API
+>* <a href=""> Lab #10-Q2 Source Code</a>
