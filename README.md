@@ -87,4 +87,4 @@
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2310/Tensorflow/Documentation"> Lab #10-Q1 Documentation</a>
 
 > Q2. Aeb-based Application with Tensorflow API
->* <a href=""> Lab #10-Q2 Source Code</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2310/Web-based%20Applications%20Tensorflow%20API"> Lab #10-Q2 Source Code</a>
