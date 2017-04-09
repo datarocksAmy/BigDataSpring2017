@@ -86,5 +86,15 @@
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2310/Tensorflow/Source"> Lab #10-Q1 Source Code</a>
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2310/Tensorflow/Documentation"> Lab #10-Q1 Documentation</a>
 
-> Q2. Aeb-based Application with Tensorflow API
+> Q2. Web-based Application with Tensorflow API
 >* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2310/Web-based%20Applications%20Tensorflow%20API"> Lab #10-Q2 Source Code</a>
+
+## > Lab Assignment #11 - Tensorflow Show & Tell + Web-based Q&A
+>* <a href="">Lab #11 WIKI</a>
+
+> Q1. Tensorflow Show & Tell - 4 Captions for each image
+>* <a href=""> Lab #11-Q1 Source Code</a>
+>* <a href=""> Lab #11-Q1 Documentation</a>
+
+> Q2. Tensorlfow Web-based Q&A
+>* <a href=""> Lab #11-Q2 Source Code</a>
