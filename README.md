@@ -94,7 +94,7 @@
 
 > Q1. Tensorflow Show & Tell - 4 Captions for each image
 >* <a href=""> Lab #11-Q1 Source Code</a>
->* <a href=""> Lab #11-Q1 Documentation</a>
+>* <a href="https://github.com/datarocksAmy/BigDataSpring2017/tree/master/BigData-Lab%20Assignment%20%2311/Tensorflow%20Show%20%26%20Tell/Documentation"> Lab #11-Q1 Documentation</a>
 
 > Q2. Tensorlfow Web-based Q&A
 >* <a href=""> Lab #11-Q2 Source Code</a>
